@@ -1,0 +1,2 @@
+include RELEASE.md
+recursive-include ssw_aligner *.pyx

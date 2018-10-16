@@ -1,0 +1,13 @@
+MANIFEST.in
+RELEASE.md
+setup.cfg
+setup.py
+ssw_aligner/__init__.py
+ssw_aligner/ssw_wrapper.c
+ssw_aligner/ssw_wrapper.pyx
+ssw_aligner.egg-info/PKG-INFO
+ssw_aligner.egg-info/SOURCES.txt
+ssw_aligner.egg-info/dependency_links.txt
+ssw_aligner.egg-info/top_level.txt
+ssw_aligner/_lib/__init__.py
+ssw_aligner/_lib/ssw.c
