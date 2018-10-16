@@ -1,2 +1,3 @@
 include RELEASE.md
+include ssw_aligner/_lib/ssw.h
 recursive-include ssw_aligner *.pyx

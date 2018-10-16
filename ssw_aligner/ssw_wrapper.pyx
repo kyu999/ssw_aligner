@@ -9,7 +9,7 @@
 from cpython cimport bool
 import numpy as np
 cimport numpy as cnp
-from skbio.sequence import Protein, Sequence
+
 
 cdef extern from "_lib/ssw.h":
 
@@ -618,7 +618,7 @@ cdef class StripedSmithWaterman:
 
         Returns
         -------
-        skbio.alignment.AlignmentStructure
+        ssw_aligner.AlignmentStructure
             The resulting alignment.
 
         """
