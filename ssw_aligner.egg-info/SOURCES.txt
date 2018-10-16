@@ -1,5 +1,5 @@
 MANIFEST.in
-RELEASE.md
+README.md
 setup.cfg
 setup.py
 ssw_aligner/__init__.py
