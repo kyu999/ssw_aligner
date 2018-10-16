@@ -5,19 +5,19 @@
     "distutils": {
         "depends": [
             "ssw_aligner/_lib/ssw.h"
-        ], 
+        ],
         "extra_compile_args": [
             "-Wno-error=declaration-after-statement"
-        ], 
+        ],
         "include_dirs": [
             "ssw_aligner"
-        ], 
-        "name": "ssw_aligner.ssw_wrapper", 
+        ],
+        "name": "ssw_aligner.ssw_wrapper",
         "sources": [
-            "ssw_aligner/ssw_wrapper.pyx", 
+            "ssw_aligner/ssw_wrapper.pyx",
             "ssw_aligner/_lib/ssw.c"
         ]
-    }, 
+    },
     "module_name": "ssw_aligner.ssw_wrapper"
 }
 END: Cython Metadata */
@@ -861,7 +861,7 @@ typedef struct {
 
 /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":730
  * # in Cython to enable them only on the right systems.
- * 
+ *
  * ctypedef npy_int8       int8_t             # <<<<<<<<<<<<<<
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t
@@ -869,7 +869,7 @@ typedef struct {
 typedef npy_int8 __pyx_t_5numpy_int8_t;
 
 /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":731
- * 
+ *
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t             # <<<<<<<<<<<<<<
  * ctypedef npy_int32      int32_t
@@ -897,7 +897,7 @@ typedef npy_int64 __pyx_t_5numpy_int64_t;
 
 /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":737
  * #ctypedef npy_int128     int128_t
- * 
+ *
  * ctypedef npy_uint8      uint8_t             # <<<<<<<<<<<<<<
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t
@@ -905,7 +905,7 @@ typedef npy_int64 __pyx_t_5numpy_int64_t;
 typedef npy_uint8 __pyx_t_5numpy_uint8_t;
 
 /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":738
- * 
+ *
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t             # <<<<<<<<<<<<<<
  * ctypedef npy_uint32     uint32_t
@@ -933,7 +933,7 @@ typedef npy_uint64 __pyx_t_5numpy_uint64_t;
 
 /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":744
  * #ctypedef npy_uint128    uint128_t
- * 
+ *
  * ctypedef npy_float32    float32_t             # <<<<<<<<<<<<<<
  * ctypedef npy_float64    float64_t
  * #ctypedef npy_float80    float80_t
@@ -941,7 +941,7 @@ typedef npy_uint64 __pyx_t_5numpy_uint64_t;
 typedef npy_float32 __pyx_t_5numpy_float32_t;
 
 /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":745
- * 
+ *
  * ctypedef npy_float32    float32_t
  * ctypedef npy_float64    float64_t             # <<<<<<<<<<<<<<
  * #ctypedef npy_float80    float80_t
@@ -963,7 +963,7 @@ typedef npy_long __pyx_t_5numpy_int_t;
  * ctypedef npy_long       int_t
  * ctypedef npy_longlong   long_t             # <<<<<<<<<<<<<<
  * ctypedef npy_longlong   longlong_t
- * 
+ *
  */
 typedef npy_longlong __pyx_t_5numpy_long_t;
 
@@ -971,14 +971,14 @@ typedef npy_longlong __pyx_t_5numpy_long_t;
  * ctypedef npy_long       int_t
  * ctypedef npy_longlong   long_t
  * ctypedef npy_longlong   longlong_t             # <<<<<<<<<<<<<<
- * 
+ *
  * ctypedef npy_ulong      uint_t
  */
 typedef npy_longlong __pyx_t_5numpy_longlong_t;
 
 /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":758
  * ctypedef npy_longlong   longlong_t
- * 
+ *
  * ctypedef npy_ulong      uint_t             # <<<<<<<<<<<<<<
  * ctypedef npy_ulonglong  ulong_t
  * ctypedef npy_ulonglong  ulonglong_t
@@ -986,11 +986,11 @@ typedef npy_longlong __pyx_t_5numpy_longlong_t;
 typedef npy_ulong __pyx_t_5numpy_uint_t;
 
 /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":759
- * 
+ *
  * ctypedef npy_ulong      uint_t
  * ctypedef npy_ulonglong  ulong_t             # <<<<<<<<<<<<<<
  * ctypedef npy_ulonglong  ulonglong_t
- * 
+ *
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
 
@@ -998,32 +998,32 @@ typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
  * ctypedef npy_ulong      uint_t
  * ctypedef npy_ulonglong  ulong_t
  * ctypedef npy_ulonglong  ulonglong_t             # <<<<<<<<<<<<<<
- * 
+ *
  * ctypedef npy_intp       intp_t
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
 
 /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":762
  * ctypedef npy_ulonglong  ulonglong_t
- * 
+ *
  * ctypedef npy_intp       intp_t             # <<<<<<<<<<<<<<
  * ctypedef npy_uintp      uintp_t
- * 
+ *
  */
 typedef npy_intp __pyx_t_5numpy_intp_t;
 
 /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":763
- * 
+ *
  * ctypedef npy_intp       intp_t
  * ctypedef npy_uintp      uintp_t             # <<<<<<<<<<<<<<
- * 
+ *
  * ctypedef npy_double     float_t
  */
 typedef npy_uintp __pyx_t_5numpy_uintp_t;
 
 /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":765
  * ctypedef npy_uintp      uintp_t
- * 
+ *
  * ctypedef npy_double     float_t             # <<<<<<<<<<<<<<
  * ctypedef npy_double     double_t
  * ctypedef npy_longdouble longdouble_t
@@ -1031,11 +1031,11 @@ typedef npy_uintp __pyx_t_5numpy_uintp_t;
 typedef npy_double __pyx_t_5numpy_float_t;
 
 /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":766
- * 
+ *
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t             # <<<<<<<<<<<<<<
  * ctypedef npy_longdouble longdouble_t
- * 
+ *
  */
 typedef npy_double __pyx_t_5numpy_double_t;
 
@@ -1043,7 +1043,7 @@ typedef npy_double __pyx_t_5numpy_double_t;
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t
  * ctypedef npy_longdouble longdouble_t             # <<<<<<<<<<<<<<
- * 
+ *
  * ctypedef npy_cfloat      cfloat_t
  */
 typedef npy_longdouble __pyx_t_5numpy_longdouble_t;
@@ -1078,7 +1078,7 @@ struct __pyx_obj_11ssw_aligner_11ssw_wrapper_StripedSmithWaterman;
 
 /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":769
  * ctypedef npy_longdouble longdouble_t
- * 
+ *
  * ctypedef npy_cfloat      cfloat_t             # <<<<<<<<<<<<<<
  * ctypedef npy_cdouble     cdouble_t
  * ctypedef npy_clongdouble clongdouble_t
@@ -1086,11 +1086,11 @@ struct __pyx_obj_11ssw_aligner_11ssw_wrapper_StripedSmithWaterman;
 typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
 
 /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":770
- * 
+ *
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t             # <<<<<<<<<<<<<<
  * ctypedef npy_clongdouble clongdouble_t
- * 
+ *
  */
 typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
 
@@ -1098,26 +1098,26 @@ typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t
  * ctypedef npy_clongdouble clongdouble_t             # <<<<<<<<<<<<<<
- * 
+ *
  * ctypedef npy_cdouble     complex_t
  */
 typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;
 
 /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":773
  * ctypedef npy_clongdouble clongdouble_t
- * 
+ *
  * ctypedef npy_cdouble     complex_t             # <<<<<<<<<<<<<<
- * 
+ *
  * cdef inline object PyArray_MultiIterNew1(a):
  */
 typedef npy_cdouble __pyx_t_5numpy_complex_t;
 
 /* "ssw_aligner/ssw_wrapper.pyx":73
- * 
- * 
+ *
+ *
  * cdef class AlignmentStructure:             # <<<<<<<<<<<<<<
  *     """Wraps the result of an alignment c struct so it is accessible to Python
- * 
+ *
  */
 struct __pyx_obj_11ssw_aligner_11ssw_wrapper_AlignmentStructure {
   PyObject_HEAD
@@ -1132,10 +1132,10 @@ struct __pyx_obj_11ssw_aligner_11ssw_wrapper_AlignmentStructure {
 
 /* "ssw_aligner/ssw_wrapper.pyx":396
  *         return tuples
- * 
+ *
  * cdef class StripedSmithWaterman:             # <<<<<<<<<<<<<<
  *     """Performs a striped (banded) Smith Waterman Alignment.
- * 
+ *
  */
 struct __pyx_obj_11ssw_aligner_11ssw_wrapper_StripedSmithWaterman {
   PyObject_HEAD
@@ -1158,11 +1158,11 @@ struct __pyx_obj_11ssw_aligner_11ssw_wrapper_StripedSmithWaterman {
 
 
 /* "ssw_aligner/ssw_wrapper.pyx":73
- * 
- * 
+ *
+ *
  * cdef class AlignmentStructure:             # <<<<<<<<<<<<<<
  *     """Wraps the result of an alignment c struct so it is accessible to Python
- * 
+ *
  */
 
 struct __pyx_vtabstruct_11ssw_aligner_11ssw_wrapper_AlignmentStructure {
@@ -1173,10 +1173,10 @@ static struct __pyx_vtabstruct_11ssw_aligner_11ssw_wrapper_AlignmentStructure *_
 
 /* "ssw_aligner/ssw_wrapper.pyx":396
  *         return tuples
- * 
+ *
  * cdef class StripedSmithWaterman:             # <<<<<<<<<<<<<<
  *     """Performs a striped (banded) Smith Waterman Alignment.
- * 
+ *
  */
 
 struct __pyx_vtabstruct_11ssw_aligner_11ssw_wrapper_StripedSmithWaterman {
@@ -2191,7 +2191,7 @@ static PyObject *__pyx_tuple__24;
 
 /* "ssw_aligner/ssw_wrapper.pyx":91
  *     cdef str _cigar_string
- * 
+ *
  *     def __cinit__(self, read_sequence, reference_sequence, index_starts_at):             # <<<<<<<<<<<<<<
  *         # We use `read_sequence` and `reference_sequence` here as they are
  *         # treated sematically as a private output of ssw.c like the `s_align`
@@ -2297,7 +2297,7 @@ static int __pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure___cinit__(s
  *         self.read_sequence = read_sequence
  *         self.reference_sequence = reference_sequence             # <<<<<<<<<<<<<<
  *         self.index_starts_at = index_starts_at
- * 
+ *
  */
   if (!(likely(PyString_CheckExact(__pyx_v_reference_sequence))||((__pyx_v_reference_sequence) == Py_None)||(PyErr_Format(PyExc_TypeError, "Expected %.16s, got %.200s", "str", Py_TYPE(__pyx_v_reference_sequence)->tp_name), 0))) __PYX_ERR(0, 96, __pyx_L1_error)
   __pyx_t_1 = __pyx_v_reference_sequence;
@@ -2312,7 +2312,7 @@ static int __pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure___cinit__(s
  *         self.read_sequence = read_sequence
  *         self.reference_sequence = reference_sequence
  *         self.index_starts_at = index_starts_at             # <<<<<<<<<<<<<<
- * 
+ *
  *     cdef __constructor(self, s_align* pointer):
  */
   __pyx_t_2 = __Pyx_PyInt_As_int(__pyx_v_index_starts_at); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 97, __pyx_L1_error)
@@ -2320,7 +2320,7 @@ static int __pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure___cinit__(s
 
   /* "ssw_aligner/ssw_wrapper.pyx":91
  *     cdef str _cigar_string
- * 
+ *
  *     def __cinit__(self, read_sequence, reference_sequence, index_starts_at):             # <<<<<<<<<<<<<<
  *         # We use `read_sequence` and `reference_sequence` here as they are
  *         # treated sematically as a private output of ssw.c like the `s_align`
@@ -2340,10 +2340,10 @@ static int __pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure___cinit__(s
 
 /* "ssw_aligner/ssw_wrapper.pyx":99
  *         self.index_starts_at = index_starts_at
- * 
+ *
  *     cdef __constructor(self, s_align* pointer):             # <<<<<<<<<<<<<<
  *         self.p = pointer
- * 
+ *
  */
 
 static PyObject *__pyx_f_11ssw_aligner_11ssw_wrapper_18AlignmentStructure___constructor(struct __pyx_obj_11ssw_aligner_11ssw_wrapper_AlignmentStructure *__pyx_v_self, s_align *__pyx_v_pointer) {
@@ -2352,20 +2352,20 @@ static PyObject *__pyx_f_11ssw_aligner_11ssw_wrapper_18AlignmentStructure___cons
   __Pyx_RefNannySetupContext("__constructor", 0);
 
   /* "ssw_aligner/ssw_wrapper.pyx":100
- * 
+ *
  *     cdef __constructor(self, s_align* pointer):
  *         self.p = pointer             # <<<<<<<<<<<<<<
- * 
+ *
  *     def __getitem__(self, key):
  */
   __pyx_v_self->p = __pyx_v_pointer;
 
   /* "ssw_aligner/ssw_wrapper.pyx":99
  *         self.index_starts_at = index_starts_at
- * 
+ *
  *     cdef __constructor(self, s_align* pointer):             # <<<<<<<<<<<<<<
  *         self.p = pointer
- * 
+ *
  */
 
   /* function exit code */
@@ -2377,10 +2377,10 @@ static PyObject *__pyx_f_11ssw_aligner_11ssw_wrapper_18AlignmentStructure___cons
 
 /* "ssw_aligner/ssw_wrapper.pyx":102
  *         self.p = pointer
- * 
+ *
  *     def __getitem__(self, key):             # <<<<<<<<<<<<<<
  *         return getattr(self, key)
- * 
+ *
  */
 
 /* Python wrapper */
@@ -2403,10 +2403,10 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_2__ge
   __Pyx_RefNannySetupContext("__getitem__", 0);
 
   /* "ssw_aligner/ssw_wrapper.pyx":103
- * 
+ *
  *     def __getitem__(self, key):
  *         return getattr(self, key)             # <<<<<<<<<<<<<<
- * 
+ *
  *     def __repr__(self):
  */
   __Pyx_XDECREF(__pyx_r);
@@ -2418,10 +2418,10 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_2__ge
 
   /* "ssw_aligner/ssw_wrapper.pyx":102
  *         self.p = pointer
- * 
+ *
  *     def __getitem__(self, key):             # <<<<<<<<<<<<<<
  *         return getattr(self, key)
- * 
+ *
  */
 
   /* function exit code */
@@ -2437,7 +2437,7 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_2__ge
 
 /* "ssw_aligner/ssw_wrapper.pyx":105
  *         return getattr(self, key)
- * 
+ *
  *     def __repr__(self):             # <<<<<<<<<<<<<<
  *         data = ['optimal_alignment_score', 'suboptimal_alignment_score',
  *                 'query_begin', 'query_end', 'target_begin',
@@ -2473,7 +2473,7 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_4__re
   __Pyx_RefNannySetupContext("__repr__", 0);
 
   /* "ssw_aligner/ssw_wrapper.pyx":106
- * 
+ *
  *     def __repr__(self):
  *         data = ['optimal_alignment_score', 'suboptimal_alignment_score',             # <<<<<<<<<<<<<<
  *                 'query_begin', 'query_end', 'target_begin',
@@ -2519,7 +2519,7 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_4__re
  *                 'query_sequence', 'target_sequence']
  *         return "{\n%s\n}" % ',\n'.join([             # <<<<<<<<<<<<<<
  *             "    {!r}: {!r}".format(k, self[k]) for k in data])
- * 
+ *
  */
   __Pyx_XDECREF(__pyx_r);
   __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 110, __pyx_L1_error)
@@ -2529,7 +2529,7 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_4__re
  *                 'query_sequence', 'target_sequence']
  *         return "{\n%s\n}" % ',\n'.join([
  *             "    {!r}: {!r}".format(k, self[k]) for k in data])             # <<<<<<<<<<<<<<
- * 
+ *
  *     def __str__(self):
  */
   __pyx_t_2 = __pyx_v_data; __Pyx_INCREF(__pyx_t_2); __pyx_t_3 = 0;
@@ -2604,7 +2604,7 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_4__re
  *                 'query_sequence', 'target_sequence']
  *         return "{\n%s\n}" % ',\n'.join([             # <<<<<<<<<<<<<<
  *             "    {!r}: {!r}".format(k, self[k]) for k in data])
- * 
+ *
  */
   __pyx_t_2 = __Pyx_PyString_Join(__pyx_kp_s_, __pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
@@ -2618,7 +2618,7 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_4__re
 
   /* "ssw_aligner/ssw_wrapper.pyx":105
  *         return getattr(self, key)
- * 
+ *
  *     def __repr__(self):             # <<<<<<<<<<<<<<
  *         data = ['optimal_alignment_score', 'suboptimal_alignment_score',
  *                 'query_begin', 'query_end', 'target_begin',
@@ -2645,7 +2645,7 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_4__re
 
 /* "ssw_aligner/ssw_wrapper.pyx":113
  *             "    {!r}: {!r}".format(k, self[k]) for k in data])
- * 
+ *
  *     def __str__(self):             # <<<<<<<<<<<<<<
  *         score = "Score: %d" % self.optimal_alignment_score
  *         if self.query_sequence and self.cigar:
@@ -2680,7 +2680,7 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_6__st
   __Pyx_RefNannySetupContext("__str__", 0);
 
   /* "ssw_aligner/ssw_wrapper.pyx":114
- * 
+ *
  *     def __str__(self):
  *         score = "Score: %d" % self.optimal_alignment_score             # <<<<<<<<<<<<<<
  *         if self.query_sequence and self.cigar:
@@ -2772,7 +2772,7 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_6__st
  *             if align_len > 13:
  *                 target = target[:10] + "..."             # <<<<<<<<<<<<<<
  *                 query = query[:10] + "..."
- * 
+ *
  */
       __pyx_t_2 = __Pyx_PyObject_GetSlice(__pyx_v_target, 0, 10, NULL, NULL, &__pyx_slice__2, 0, 1, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 120, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
@@ -2786,7 +2786,7 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_6__st
  *             if align_len > 13:
  *                 target = target[:10] + "..."
  *                 query = query[:10] + "..."             # <<<<<<<<<<<<<<
- * 
+ *
  *             length = "Length: %d" % align_len
  */
       __pyx_t_1 = __Pyx_PyObject_GetSlice(__pyx_v_query, 0, 10, NULL, NULL, &__pyx_slice__4, 0, 1, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 121, __pyx_L1_error)
@@ -2808,7 +2808,7 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_6__st
 
     /* "ssw_aligner/ssw_wrapper.pyx":123
  *                 query = query[:10] + "..."
- * 
+ *
  *             length = "Length: %d" % align_len             # <<<<<<<<<<<<<<
  *             return "\n".join([query, target, score, length])
  *         return score
@@ -2819,11 +2819,11 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_6__st
     __pyx_t_2 = 0;
 
     /* "ssw_aligner/ssw_wrapper.pyx":124
- * 
+ *
  *             length = "Length: %d" % align_len
  *             return "\n".join([query, target, score, length])             # <<<<<<<<<<<<<<
  *         return score
- * 
+ *
  */
     __Pyx_XDECREF(__pyx_r);
     __pyx_t_2 = PyList_New(4); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 124, __pyx_L1_error)
@@ -2860,7 +2860,7 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_6__st
  *             length = "Length: %d" % align_len
  *             return "\n".join([query, target, score, length])
  *         return score             # <<<<<<<<<<<<<<
- * 
+ *
  *     @property
  */
   __Pyx_XDECREF(__pyx_r);
@@ -2870,7 +2870,7 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_6__st
 
   /* "ssw_aligner/ssw_wrapper.pyx":113
  *             "    {!r}: {!r}".format(k, self[k]) for k in data])
- * 
+ *
  *     def __str__(self):             # <<<<<<<<<<<<<<
  *         score = "Score: %d" % self.optimal_alignment_score
  *         if self.query_sequence and self.cigar:
@@ -2894,11 +2894,11 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_6__st
 }
 
 /* "ssw_aligner/ssw_wrapper.pyx":128
- * 
+ *
  *     @property
  *     def optimal_alignment_score(self):             # <<<<<<<<<<<<<<
  *         """Optimal alignment score
- * 
+ *
  */
 
 /* Python wrapper */
@@ -2921,10 +2921,10 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_23opt
   __Pyx_RefNannySetupContext("__get__", 0);
 
   /* "ssw_aligner/ssw_wrapper.pyx":137
- * 
+ *
  *         """
  *         return self.p.score1             # <<<<<<<<<<<<<<
- * 
+ *
  *     @property
  */
   __Pyx_XDECREF(__pyx_r);
@@ -2935,11 +2935,11 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_23opt
   goto __pyx_L0;
 
   /* "ssw_aligner/ssw_wrapper.pyx":128
- * 
+ *
  *     @property
  *     def optimal_alignment_score(self):             # <<<<<<<<<<<<<<
  *         """Optimal alignment score
- * 
+ *
  */
 
   /* function exit code */
@@ -2954,11 +2954,11 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_23opt
 }
 
 /* "ssw_aligner/ssw_wrapper.pyx":140
- * 
+ *
  *     @property
  *     def suboptimal_alignment_score(self):             # <<<<<<<<<<<<<<
  *         """Suboptimal alignment score
- * 
+ *
  */
 
 /* Python wrapper */
@@ -2981,10 +2981,10 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_26sub
   __Pyx_RefNannySetupContext("__get__", 0);
 
   /* "ssw_aligner/ssw_wrapper.pyx":149
- * 
+ *
  *         """
  *         return self.p.score2             # <<<<<<<<<<<<<<
- * 
+ *
  *     @property
  */
   __Pyx_XDECREF(__pyx_r);
@@ -2995,11 +2995,11 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_26sub
   goto __pyx_L0;
 
   /* "ssw_aligner/ssw_wrapper.pyx":140
- * 
+ *
  *     @property
  *     def suboptimal_alignment_score(self):             # <<<<<<<<<<<<<<
  *         """Suboptimal alignment score
- * 
+ *
  */
 
   /* function exit code */
@@ -3014,11 +3014,11 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_26sub
 }
 
 /* "ssw_aligner/ssw_wrapper.pyx":152
- * 
+ *
  *     @property
  *     def target_begin(self):             # <<<<<<<<<<<<<<
  *         """Character index where the target's alignment begins
- * 
+ *
  */
 
 /* Python wrapper */
@@ -3042,11 +3042,11 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_12tar
   __Pyx_RefNannySetupContext("__get__", 0);
 
   /* "ssw_aligner/ssw_wrapper.pyx":165
- * 
+ *
  *         """
  *         return self.p.ref_begin1 + self.index_starts_at if (self.p.ref_begin1             # <<<<<<<<<<<<<<
  *                                                             >= 0) else -1
- * 
+ *
  */
   __Pyx_XDECREF(__pyx_r);
 
@@ -3054,17 +3054,17 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_12tar
  *         """
  *         return self.p.ref_begin1 + self.index_starts_at if (self.p.ref_begin1
  *                                                             >= 0) else -1             # <<<<<<<<<<<<<<
- * 
+ *
  *     @property
  */
   if (((__pyx_v_self->p->ref_begin1 >= 0) != 0)) {
 
     /* "ssw_aligner/ssw_wrapper.pyx":165
- * 
+ *
  *         """
  *         return self.p.ref_begin1 + self.index_starts_at if (self.p.ref_begin1             # <<<<<<<<<<<<<<
  *                                                             >= 0) else -1
- * 
+ *
  */
     __pyx_t_2 = __Pyx_PyInt_From_npy_int32((__pyx_v_self->p->ref_begin1 + __pyx_v_self->index_starts_at)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 165, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
@@ -3079,11 +3079,11 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_12tar
   goto __pyx_L0;
 
   /* "ssw_aligner/ssw_wrapper.pyx":152
- * 
+ *
  *     @property
  *     def target_begin(self):             # <<<<<<<<<<<<<<
  *         """Character index where the target's alignment begins
- * 
+ *
  */
 
   /* function exit code */
@@ -3099,11 +3099,11 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_12tar
 }
 
 /* "ssw_aligner/ssw_wrapper.pyx":169
- * 
+ *
  *     @property
  *     def target_end_optimal(self):             # <<<<<<<<<<<<<<
  *         """Character index where the target's optimal alignment ends
- * 
+ *
  */
 
 /* Python wrapper */
@@ -3126,10 +3126,10 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_18tar
   __Pyx_RefNannySetupContext("__get__", 0);
 
   /* "ssw_aligner/ssw_wrapper.pyx":183
- * 
+ *
  *         """
  *         return self.p.ref_end1 + self.index_starts_at             # <<<<<<<<<<<<<<
- * 
+ *
  *     @property
  */
   __Pyx_XDECREF(__pyx_r);
@@ -3140,11 +3140,11 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_18tar
   goto __pyx_L0;
 
   /* "ssw_aligner/ssw_wrapper.pyx":169
- * 
+ *
  *     @property
  *     def target_end_optimal(self):             # <<<<<<<<<<<<<<
  *         """Character index where the target's optimal alignment ends
- * 
+ *
  */
 
   /* function exit code */
@@ -3159,11 +3159,11 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_18tar
 }
 
 /* "ssw_aligner/ssw_wrapper.pyx":186
- * 
+ *
  *     @property
  *     def target_end_suboptimal(self):             # <<<<<<<<<<<<<<
  *         """Character index where the target's suboptimal alignment ends
- * 
+ *
  */
 
 /* Python wrapper */
@@ -3186,10 +3186,10 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_21tar
   __Pyx_RefNannySetupContext("__get__", 0);
 
   /* "ssw_aligner/ssw_wrapper.pyx":200
- * 
+ *
  *         """
  *         return self.p.ref_end2 + self.index_starts_at             # <<<<<<<<<<<<<<
- * 
+ *
  *     @property
  */
   __Pyx_XDECREF(__pyx_r);
@@ -3200,11 +3200,11 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_21tar
   goto __pyx_L0;
 
   /* "ssw_aligner/ssw_wrapper.pyx":186
- * 
+ *
  *     @property
  *     def target_end_suboptimal(self):             # <<<<<<<<<<<<<<
  *         """Character index where the target's suboptimal alignment ends
- * 
+ *
  */
 
   /* function exit code */
@@ -3219,11 +3219,11 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_21tar
 }
 
 /* "ssw_aligner/ssw_wrapper.pyx":203
- * 
+ *
  *     @property
  *     def query_begin(self):             # <<<<<<<<<<<<<<
  *         """Returns the character index at which the query sequence begins
- * 
+ *
  */
 
 /* Python wrapper */
@@ -3247,11 +3247,11 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_11que
   __Pyx_RefNannySetupContext("__get__", 0);
 
   /* "ssw_aligner/ssw_wrapper.pyx":216
- * 
+ *
  *         """
  *         return self.p.read_begin1 + self.index_starts_at if (self.p.read_begin1             # <<<<<<<<<<<<<<
  *                                                              >= 0) else -1
- * 
+ *
  */
   __Pyx_XDECREF(__pyx_r);
 
@@ -3259,17 +3259,17 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_11que
  *         """
  *         return self.p.read_begin1 + self.index_starts_at if (self.p.read_begin1
  *                                                              >= 0) else -1             # <<<<<<<<<<<<<<
- * 
+ *
  *     @property
  */
   if (((__pyx_v_self->p->read_begin1 >= 0) != 0)) {
 
     /* "ssw_aligner/ssw_wrapper.pyx":216
- * 
+ *
  *         """
  *         return self.p.read_begin1 + self.index_starts_at if (self.p.read_begin1             # <<<<<<<<<<<<<<
  *                                                              >= 0) else -1
- * 
+ *
  */
     __pyx_t_2 = __Pyx_PyInt_From_npy_int32((__pyx_v_self->p->read_begin1 + __pyx_v_self->index_starts_at)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 216, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
@@ -3284,11 +3284,11 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_11que
   goto __pyx_L0;
 
   /* "ssw_aligner/ssw_wrapper.pyx":203
- * 
+ *
  *     @property
  *     def query_begin(self):             # <<<<<<<<<<<<<<
  *         """Returns the character index at which the query sequence begins
- * 
+ *
  */
 
   /* function exit code */
@@ -3304,11 +3304,11 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_11que
 }
 
 /* "ssw_aligner/ssw_wrapper.pyx":220
- * 
+ *
  *     @property
  *     def query_end(self):             # <<<<<<<<<<<<<<
  *         """Character index at where query sequence ends
- * 
+ *
  */
 
 /* Python wrapper */
@@ -3331,10 +3331,10 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_9quer
   __Pyx_RefNannySetupContext("__get__", 0);
 
   /* "ssw_aligner/ssw_wrapper.pyx":233
- * 
+ *
  *         """
  *         return self.p.read_end1 + self.index_starts_at             # <<<<<<<<<<<<<<
- * 
+ *
  *     @property
  */
   __Pyx_XDECREF(__pyx_r);
@@ -3345,11 +3345,11 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_9quer
   goto __pyx_L0;
 
   /* "ssw_aligner/ssw_wrapper.pyx":220
- * 
+ *
  *     @property
  *     def query_end(self):             # <<<<<<<<<<<<<<
  *         """Character index at where query sequence ends
- * 
+ *
  */
 
   /* function exit code */
@@ -3364,11 +3364,11 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_9quer
 }
 
 /* "ssw_aligner/ssw_wrapper.pyx":236
- * 
+ *
  *     @property
  *     def cigar(self):             # <<<<<<<<<<<<<<
  *         """Cigar formatted string for the optimal alignment
- * 
+ *
  */
 
 /* Python wrapper */
@@ -3457,7 +3457,7 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_5ciga
     __pyx_v_i = __pyx_t_6;
 
     /* "ssw_aligner/ssw_wrapper.pyx":266
- * 
+ *
  *             # Length, remove first 4 bits
  *             cigar_list.append(str(self.p.cigar[i] >> 4))             # <<<<<<<<<<<<<<
  *             # M/I/D, lookup first 4 bits in the mid_table
@@ -3493,7 +3493,7 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_5ciga
  *         # Memoization! (2/2)
  *         self._cigar_string = "".join(cigar_list)             # <<<<<<<<<<<<<<
  *         return self._cigar_string
- * 
+ *
  */
   __pyx_t_3 = __Pyx_PyString_Join(__pyx_kp_s__6, __pyx_v_cigar_list); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 270, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
@@ -3508,7 +3508,7 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_5ciga
  *         # Memoization! (2/2)
  *         self._cigar_string = "".join(cigar_list)
  *         return self._cigar_string             # <<<<<<<<<<<<<<
- * 
+ *
  *     @property
  */
   __Pyx_XDECREF(__pyx_r);
@@ -3517,11 +3517,11 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_5ciga
   goto __pyx_L0;
 
   /* "ssw_aligner/ssw_wrapper.pyx":236
- * 
+ *
  *     @property
  *     def cigar(self):             # <<<<<<<<<<<<<<
  *         """Cigar formatted string for the optimal alignment
- * 
+ *
  */
 
   /* function exit code */
@@ -3538,11 +3538,11 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_5ciga
 }
 
 /* "ssw_aligner/ssw_wrapper.pyx":274
- * 
+ *
  *     @property
  *     def query_sequence(self):             # <<<<<<<<<<<<<<
  *         """Query sequence
- * 
+ *
  */
 
 /* Python wrapper */
@@ -3564,10 +3564,10 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_14que
   __Pyx_RefNannySetupContext("__get__", 0);
 
   /* "ssw_aligner/ssw_wrapper.pyx":283
- * 
+ *
  *         """
  *         return self.read_sequence             # <<<<<<<<<<<<<<
- * 
+ *
  *     @property
  */
   __Pyx_XDECREF(__pyx_r);
@@ -3576,11 +3576,11 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_14que
   goto __pyx_L0;
 
   /* "ssw_aligner/ssw_wrapper.pyx":274
- * 
+ *
  *     @property
  *     def query_sequence(self):             # <<<<<<<<<<<<<<
  *         """Query sequence
- * 
+ *
  */
 
   /* function exit code */
@@ -3591,11 +3591,11 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_14que
 }
 
 /* "ssw_aligner/ssw_wrapper.pyx":286
- * 
+ *
  *     @property
  *     def target_sequence(self):             # <<<<<<<<<<<<<<
  *         """Target sequence
- * 
+ *
  */
 
 /* Python wrapper */
@@ -3617,10 +3617,10 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_15tar
   __Pyx_RefNannySetupContext("__get__", 0);
 
   /* "ssw_aligner/ssw_wrapper.pyx":295
- * 
+ *
  *         """
  *         return self.reference_sequence             # <<<<<<<<<<<<<<
- * 
+ *
  *     @property
  */
   __Pyx_XDECREF(__pyx_r);
@@ -3629,11 +3629,11 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_15tar
   goto __pyx_L0;
 
   /* "ssw_aligner/ssw_wrapper.pyx":286
- * 
+ *
  *     @property
  *     def target_sequence(self):             # <<<<<<<<<<<<<<
  *         """Target sequence
- * 
+ *
  */
 
   /* function exit code */
@@ -3644,11 +3644,11 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_15tar
 }
 
 /* "ssw_aligner/ssw_wrapper.pyx":298
- * 
+ *
  *     @property
  *     def aligned_query_sequence(self):             # <<<<<<<<<<<<<<
  *         """Returns the query sequence aligned by the cigar
- * 
+ *
  */
 
 /* Python wrapper */
@@ -3680,7 +3680,7 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_22ali
   __Pyx_RefNannySetupContext("__get__", 0);
 
   /* "ssw_aligner/ssw_wrapper.pyx":312
- * 
+ *
  *         """
  *         if self.query_sequence:             # <<<<<<<<<<<<<<
  *             return self._get_aligned_sequence(self.query_sequence,
@@ -3811,7 +3811,7 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_22ali
     goto __pyx_L0;
 
     /* "ssw_aligner/ssw_wrapper.pyx":312
- * 
+ *
  *         """
  *         if self.query_sequence:             # <<<<<<<<<<<<<<
  *             return self._get_aligned_sequence(self.query_sequence,
@@ -3823,7 +3823,7 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_22ali
  *                                               self.query_begin, self.query_end,
  *                                               "D")
  *         return None             # <<<<<<<<<<<<<<
- * 
+ *
  *     @property
  */
   __Pyx_XDECREF(__pyx_r);
@@ -3831,11 +3831,11 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_22ali
   goto __pyx_L0;
 
   /* "ssw_aligner/ssw_wrapper.pyx":298
- * 
+ *
  *     @property
  *     def aligned_query_sequence(self):             # <<<<<<<<<<<<<<
  *         """Returns the query sequence aligned by the cigar
- * 
+ *
  */
 
   /* function exit code */
@@ -3857,11 +3857,11 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_22ali
 }
 
 /* "ssw_aligner/ssw_wrapper.pyx":320
- * 
+ *
  *     @property
  *     def aligned_target_sequence(self):             # <<<<<<<<<<<<<<
  *         """Returns the target sequence aligned by the cigar
- * 
+ *
  */
 
 /* Python wrapper */
@@ -3893,7 +3893,7 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_23ali
   __Pyx_RefNannySetupContext("__get__", 0);
 
   /* "ssw_aligner/ssw_wrapper.pyx":334
- * 
+ *
  *         """
  *         if self.target_sequence:             # <<<<<<<<<<<<<<
  *             return self._get_aligned_sequence(self.target_sequence,
@@ -4032,7 +4032,7 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_23ali
     goto __pyx_L0;
 
     /* "ssw_aligner/ssw_wrapper.pyx":334
- * 
+ *
  *         """
  *         if self.target_sequence:             # <<<<<<<<<<<<<<
  *             return self._get_aligned_sequence(self.target_sequence,
@@ -4044,7 +4044,7 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_23ali
  *                                               self.target_end_optimal,
  *                                               "I")
  *         return None             # <<<<<<<<<<<<<<
- * 
+ *
  *     def set_zero_based(self, is_zero_based):
  */
   __Pyx_XDECREF(__pyx_r);
@@ -4052,11 +4052,11 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_23ali
   goto __pyx_L0;
 
   /* "ssw_aligner/ssw_wrapper.pyx":320
- * 
+ *
  *     @property
  *     def aligned_target_sequence(self):             # <<<<<<<<<<<<<<
  *         """Returns the target sequence aligned by the cigar
- * 
+ *
  */
 
   /* function exit code */
@@ -4079,10 +4079,10 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_23ali
 
 /* "ssw_aligner/ssw_wrapper.pyx":342
  *         return None
- * 
+ *
  *     def set_zero_based(self, is_zero_based):             # <<<<<<<<<<<<<<
  *         """Set the aligment indices to start at 0 if True else 1 if False
- * 
+ *
  */
 
 /* Python wrapper */
@@ -4106,7 +4106,7 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_8set_
   __Pyx_RefNannySetupContext("set_zero_based", 0);
 
   /* "ssw_aligner/ssw_wrapper.pyx":346
- * 
+ *
  *         """
  *         if is_zero_based:             # <<<<<<<<<<<<<<
  *             self.index_starts_at = 0
@@ -4125,7 +4125,7 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_8set_
     __pyx_v_self->index_starts_at = 0;
 
     /* "ssw_aligner/ssw_wrapper.pyx":346
- * 
+ *
  *         """
  *         if is_zero_based:             # <<<<<<<<<<<<<<
  *             self.index_starts_at = 0
@@ -4138,7 +4138,7 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_8set_
  *             self.index_starts_at = 0
  *         else:
  *             self.index_starts_at = 1             # <<<<<<<<<<<<<<
- * 
+ *
  *     def is_zero_based(self):
  */
   /*else*/ {
@@ -4148,10 +4148,10 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_8set_
 
   /* "ssw_aligner/ssw_wrapper.pyx":342
  *         return None
- * 
+ *
  *     def set_zero_based(self, is_zero_based):             # <<<<<<<<<<<<<<
  *         """Set the aligment indices to start at 0 if True else 1 if False
- * 
+ *
  */
 
   /* function exit code */
@@ -4168,10 +4168,10 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_8set_
 
 /* "ssw_aligner/ssw_wrapper.pyx":351
  *             self.index_starts_at = 1
- * 
+ *
  *     def is_zero_based(self):             # <<<<<<<<<<<<<<
  *         """Returns True if alignment inidices start at 0 else False
- * 
+ *
  */
 
 /* Python wrapper */
@@ -4195,10 +4195,10 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_10is_
   __Pyx_RefNannySetupContext("is_zero_based", 0);
 
   /* "ssw_aligner/ssw_wrapper.pyx":360
- * 
+ *
  *         """
  *         return self.index_starts_at == 0             # <<<<<<<<<<<<<<
- * 
+ *
  *     def _get_aligned_sequence(self, sequence, tuple_cigar, begin, end,
  */
   __Pyx_XDECREF(__pyx_r);
@@ -4210,10 +4210,10 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_10is_
 
   /* "ssw_aligner/ssw_wrapper.pyx":351
  *             self.index_starts_at = 1
- * 
+ *
  *     def is_zero_based(self):             # <<<<<<<<<<<<<<
  *         """Returns True if alignment inidices start at 0 else False
- * 
+ *
  */
 
   /* function exit code */
@@ -4229,7 +4229,7 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_10is_
 
 /* "ssw_aligner/ssw_wrapper.pyx":362
  *         return self.index_starts_at == 0
- * 
+ *
  *     def _get_aligned_sequence(self, sequence, tuple_cigar, begin, end,             # <<<<<<<<<<<<<<
  *                               gap_type):
  *         # Save the original index scheme and then set it to 0 (1/2)
@@ -4489,11 +4489,11 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_12_ge
       }
       #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
       if (likely(PyTuple_CheckExact(sequence))) {
-        __pyx_t_3 = PyTuple_GET_ITEM(sequence, 0); 
-        __pyx_t_6 = PyTuple_GET_ITEM(sequence, 1); 
+        __pyx_t_3 = PyTuple_GET_ITEM(sequence, 0);
+        __pyx_t_6 = PyTuple_GET_ITEM(sequence, 1);
       } else {
-        __pyx_t_3 = PyList_GET_ITEM(sequence, 0); 
-        __pyx_t_6 = PyList_GET_ITEM(sequence, 1); 
+        __pyx_t_3 = PyList_GET_ITEM(sequence, 0);
+        __pyx_t_6 = PyList_GET_ITEM(sequence, 1);
       }
       __Pyx_INCREF(__pyx_t_3);
       __Pyx_INCREF(__pyx_t_6);
@@ -4820,7 +4820,7 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_12_ge
  *         # Revert our index scheme to the original (2/2)
  *         self.set_zero_based(orig_z_base)             # <<<<<<<<<<<<<<
  *         return "".join(aligned_sequence)
- * 
+ *
  */
   __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_set_zero_based); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 382, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
@@ -4873,7 +4873,7 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_12_ge
  *         # Revert our index scheme to the original (2/2)
  *         self.set_zero_based(orig_z_base)
  *         return "".join(aligned_sequence)             # <<<<<<<<<<<<<<
- * 
+ *
  *     def _tuples_from_cigar(self):
  */
   __Pyx_XDECREF(__pyx_r);
@@ -4885,7 +4885,7 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_12_ge
 
   /* "ssw_aligner/ssw_wrapper.pyx":362
  *         return self.index_starts_at == 0
- * 
+ *
  *     def _get_aligned_sequence(self, sequence, tuple_cigar, begin, end,             # <<<<<<<<<<<<<<
  *                               gap_type):
  *         # Save the original index scheme and then set it to 0 (1/2)
@@ -4915,7 +4915,7 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_12_ge
 
 /* "ssw_aligner/ssw_wrapper.pyx":385
  *         return "".join(aligned_sequence)
- * 
+ *
  *     def _tuples_from_cigar(self):             # <<<<<<<<<<<<<<
  *         tuples = []
  *         length_stack = []
@@ -4951,7 +4951,7 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_14_tu
   __Pyx_RefNannySetupContext("_tuples_from_cigar", 0);
 
   /* "ssw_aligner/ssw_wrapper.pyx":386
- * 
+ *
  *     def _tuples_from_cigar(self):
  *         tuples = []             # <<<<<<<<<<<<<<
  *         length_stack = []
@@ -5105,7 +5105,7 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_14_tu
  *                 tuples.append((int("".join(length_stack)), character))
  *                 length_stack = []             # <<<<<<<<<<<<<<
  *         return tuples
- * 
+ *
  */
       __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 393, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
@@ -5128,7 +5128,7 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_14_tu
  *                 tuples.append((int("".join(length_stack)), character))
  *                 length_stack = []
  *         return tuples             # <<<<<<<<<<<<<<
- * 
+ *
  * cdef class StripedSmithWaterman:
  */
   __Pyx_XDECREF(__pyx_r);
@@ -5138,7 +5138,7 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_14_tu
 
   /* "ssw_aligner/ssw_wrapper.pyx":385
  *         return "".join(aligned_sequence)
- * 
+ *
  *     def _tuples_from_cigar(self):             # <<<<<<<<<<<<<<
  *         tuples = []
  *         length_stack = []
@@ -5270,7 +5270,7 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_18AlignmentStructure_18__s
 
 /* "ssw_aligner/ssw_wrapper.pyx":538
  *     cdef cnp.ndarray __KEEP_IT_IN_SCOPE_matrix
- * 
+ *
  *     def __cinit__(self, query_sequence,             # <<<<<<<<<<<<<<
  *                   gap_open_penalty=5,  # BLASTN Default
  *                   gap_extend_penalty=2,  # BLASTN Default
@@ -5592,7 +5592,7 @@ static int __pyx_pw_11ssw_aligner_11ssw_wrapper_20StripedSmithWaterman_1__cinit_
 
   /* "ssw_aligner/ssw_wrapper.pyx":538
  *     cdef cnp.ndarray __KEEP_IT_IN_SCOPE_matrix
- * 
+ *
  *     def __cinit__(self, query_sequence,             # <<<<<<<<<<<<<<
  *                   gap_open_penalty=5,  # BLASTN Default
  *                   gap_extend_penalty=2,  # BLASTN Default
@@ -6081,7 +6081,7 @@ static int __pyx_pf_11ssw_aligner_11ssw_wrapper_20StripedSmithWaterman___cinit__
  *                 self.mask_length = mask_length
  *         else:
  *             self.mask_length = mask_length             # <<<<<<<<<<<<<<
- * 
+ *
  *         cdef cnp.ndarray[cnp.int8_t, ndim = 1, mode = "c"] read_seq
  */
   /*else*/ {
@@ -6091,10 +6091,10 @@ static int __pyx_pf_11ssw_aligner_11ssw_wrapper_20StripedSmithWaterman___cinit__
   __pyx_L7:;
 
   /* "ssw_aligner/ssw_wrapper.pyx":590
- * 
+ *
  *         cdef cnp.ndarray[cnp.int8_t, ndim = 1, mode = "c"] read_seq
  *         read_seq = self._seq_converter(query_sequence)             # <<<<<<<<<<<<<<
- * 
+ *
  *         cdef cnp.int32_t read_length
  */
   __pyx_t_8 = ((PyObject *)((struct __pyx_vtabstruct_11ssw_aligner_11ssw_wrapper_StripedSmithWaterman *)__pyx_v_self->__pyx_vtab)->_seq_converter(__pyx_v_self, __pyx_v_query_sequence)); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 590, __pyx_L1_error)
@@ -6120,30 +6120,30 @@ static int __pyx_pf_11ssw_aligner_11ssw_wrapper_20StripedSmithWaterman___cinit__
   __pyx_t_8 = 0;
 
   /* "ssw_aligner/ssw_wrapper.pyx":593
- * 
+ *
  *         cdef cnp.int32_t read_length
  *         read_length = len(query_sequence)             # <<<<<<<<<<<<<<
- * 
+ *
  *         cdef cnp.int8_t s_size
  */
   __pyx_t_16 = PyObject_Length(__pyx_v_query_sequence); if (unlikely(__pyx_t_16 == ((Py_ssize_t)-1))) __PYX_ERR(0, 593, __pyx_L1_error)
   __pyx_v_read_length = __pyx_t_16;
 
   /* "ssw_aligner/ssw_wrapper.pyx":596
- * 
+ *
  *         cdef cnp.int8_t s_size
  *         s_size = score_size             # <<<<<<<<<<<<<<
- * 
+ *
  *         cdef cnp.int32_t m_width
  */
   __pyx_t_17 = __Pyx_PyInt_As_npy_int8(__pyx_v_score_size); if (unlikely((__pyx_t_17 == ((npy_int8)-1)) && PyErr_Occurred())) __PYX_ERR(0, 596, __pyx_L1_error)
   __pyx_v_s_size = __pyx_t_17;
 
   /* "ssw_aligner/ssw_wrapper.pyx":599
- * 
+ *
  *         cdef cnp.int32_t m_width
  *         m_width = 24 if self.is_protein else 5             # <<<<<<<<<<<<<<
- * 
+ *
  *         cdef s_profile* p
  */
   __pyx_t_12 = __Pyx_PyObject_IsTrue(((PyObject *)__pyx_v_self->is_protein)); if (unlikely(__pyx_t_12 < 0)) __PYX_ERR(0, 599, __pyx_L1_error)
@@ -6155,7 +6155,7 @@ static int __pyx_pf_11ssw_aligner_11ssw_wrapper_20StripedSmithWaterman___cinit__
   __pyx_v_m_width = __pyx_t_4;
 
   /* "ssw_aligner/ssw_wrapper.pyx":602
- * 
+ *
  *         cdef s_profile* p
  *         self.profile = ssw_init(<cnp.int8_t*> read_seq.data,             # <<<<<<<<<<<<<<
  *                                 read_length,
@@ -6164,11 +6164,11 @@ static int __pyx_pf_11ssw_aligner_11ssw_wrapper_20StripedSmithWaterman___cinit__
   __pyx_v_self->profile = ssw_init(((__pyx_t_5numpy_int8_t *)__pyx_v_read_seq->data), __pyx_v_read_length, ((__pyx_t_5numpy_int8_t *)__pyx_v_matrix->data), __pyx_v_m_width, __pyx_v_s_size);
 
   /* "ssw_aligner/ssw_wrapper.pyx":609
- * 
+ *
  *         # A hack to keep the python GC from eating our data
  *         self.__KEEP_IT_IN_SCOPE_read = read_seq             # <<<<<<<<<<<<<<
  *         self.__KEEP_IT_IN_SCOPE_matrix = matrix
- * 
+ *
  */
   __Pyx_INCREF(((PyObject *)__pyx_v_read_seq));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_read_seq));
@@ -6180,7 +6180,7 @@ static int __pyx_pf_11ssw_aligner_11ssw_wrapper_20StripedSmithWaterman___cinit__
  *         # A hack to keep the python GC from eating our data
  *         self.__KEEP_IT_IN_SCOPE_read = read_seq
  *         self.__KEEP_IT_IN_SCOPE_matrix = matrix             # <<<<<<<<<<<<<<
- * 
+ *
  *     def __call__(self, target_sequence):
  */
   __Pyx_INCREF(((PyObject *)__pyx_v_matrix));
@@ -6191,7 +6191,7 @@ static int __pyx_pf_11ssw_aligner_11ssw_wrapper_20StripedSmithWaterman___cinit__
 
   /* "ssw_aligner/ssw_wrapper.pyx":538
  *     cdef cnp.ndarray __KEEP_IT_IN_SCOPE_matrix
- * 
+ *
  *     def __cinit__(self, query_sequence,             # <<<<<<<<<<<<<<
  *                   gap_open_penalty=5,  # BLASTN Default
  *                   gap_extend_penalty=2,  # BLASTN Default
@@ -6227,10 +6227,10 @@ static int __pyx_pf_11ssw_aligner_11ssw_wrapper_20StripedSmithWaterman___cinit__
 
 /* "ssw_aligner/ssw_wrapper.pyx":612
  *         self.__KEEP_IT_IN_SCOPE_matrix = matrix
- * 
+ *
  *     def __call__(self, target_sequence):             # <<<<<<<<<<<<<<
  *         """Align `target_sequence` to `query_sequence`
- * 
+ *
  */
 
 /* Python wrapper */
@@ -6312,7 +6312,7 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_20StripedSmithWaterman_2__
   __pyx_pybuffernd_reference.rcbuffer = &__pyx_pybuffer_reference;
 
   /* "ssw_aligner/ssw_wrapper.pyx":625
- * 
+ *
  *         """
  *         reference_sequence = target_sequence             # <<<<<<<<<<<<<<
  *         cdef cnp.ndarray[cnp.int8_t, ndim = 1, mode = "c"] reference
@@ -6325,7 +6325,7 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_20StripedSmithWaterman_2__
  *         reference_sequence = target_sequence
  *         cdef cnp.ndarray[cnp.int8_t, ndim = 1, mode = "c"] reference
  *         reference = self._seq_converter(reference_sequence)             # <<<<<<<<<<<<<<
- * 
+ *
  *         cdef cnp.int32_t ref_length
  */
   __pyx_t_1 = ((PyObject *)((struct __pyx_vtabstruct_11ssw_aligner_11ssw_wrapper_StripedSmithWaterman *)__pyx_v_self->__pyx_vtab)->_seq_converter(__pyx_v_self, __pyx_v_reference_sequence)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 627, __pyx_L1_error)
@@ -6351,17 +6351,17 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_20StripedSmithWaterman_2__
   __pyx_t_1 = 0;
 
   /* "ssw_aligner/ssw_wrapper.pyx":630
- * 
+ *
  *         cdef cnp.int32_t ref_length
  *         ref_length = len(reference_sequence)             # <<<<<<<<<<<<<<
- * 
+ *
  *         cdef s_align *align
  */
   __pyx_t_6 = PyObject_Length(__pyx_v_reference_sequence); if (unlikely(__pyx_t_6 == ((Py_ssize_t)-1))) __PYX_ERR(0, 630, __pyx_L1_error)
   __pyx_v_ref_length = __pyx_t_6;
 
   /* "ssw_aligner/ssw_wrapper.pyx":633
- * 
+ *
  *         cdef s_align *align
  *         align = ssw_align(self.profile, <cnp.int8_t*> reference.data,             # <<<<<<<<<<<<<<
  *                           ref_length, self.gap_open_penalty,
@@ -6370,7 +6370,7 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_20StripedSmithWaterman_2__
   __pyx_v_align = ssw_align(__pyx_v_self->profile, ((__pyx_t_5numpy_int8_t *)__pyx_v_reference->data), __pyx_v_ref_length, __pyx_v_self->gap_open_penalty, __pyx_v_self->gap_extend_penalty, __pyx_v_self->bit_flag, __pyx_v_self->score_filter, __pyx_v_self->distance_filter, __pyx_v_self->mask_length);
 
   /* "ssw_aligner/ssw_wrapper.pyx":640
- * 
+ *
  *         # Cython won't let me do this correctly, so duplicate code ahoy:
  *         if self.suppress_sequences:             # <<<<<<<<<<<<<<
  *             alignment = AlignmentStructure("", "", self.index_starts_at)
@@ -6406,7 +6406,7 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_20StripedSmithWaterman_2__
     __pyx_t_1 = 0;
 
     /* "ssw_aligner/ssw_wrapper.pyx":640
- * 
+ *
  *         # Cython won't let me do this correctly, so duplicate code ahoy:
  *         if self.suppress_sequences:             # <<<<<<<<<<<<<<
  *             alignment = AlignmentStructure("", "", self.index_starts_at)
@@ -6465,7 +6465,7 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_20StripedSmithWaterman_2__
  *                                            self.index_starts_at)
  *         alignment.__constructor(align)  # Hack to get a pointer through             # <<<<<<<<<<<<<<
  *         return alignment
- * 
+ *
  */
   __pyx_t_1 = ((struct __pyx_vtabstruct_11ssw_aligner_11ssw_wrapper_AlignmentStructure *)__pyx_v_alignment->__pyx_vtab)->__pyx___constructor(__pyx_v_alignment, __pyx_v_align); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 646, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
@@ -6475,7 +6475,7 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_20StripedSmithWaterman_2__
  *                                            self.index_starts_at)
  *         alignment.__constructor(align)  # Hack to get a pointer through
  *         return alignment             # <<<<<<<<<<<<<<
- * 
+ *
  *     def _get_bit_flag(self, override_skip_babp, score_only):
  */
   __Pyx_XDECREF(__pyx_r);
@@ -6485,10 +6485,10 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_20StripedSmithWaterman_2__
 
   /* "ssw_aligner/ssw_wrapper.pyx":612
  *         self.__KEEP_IT_IN_SCOPE_matrix = matrix
- * 
+ *
  *     def __call__(self, target_sequence):             # <<<<<<<<<<<<<<
  *         """Align `target_sequence` to `query_sequence`
- * 
+ *
  */
 
   /* function exit code */
@@ -6517,7 +6517,7 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_20StripedSmithWaterman_2__
 
 /* "ssw_aligner/ssw_wrapper.pyx":649
  *         return alignment
- * 
+ *
  *     def _get_bit_flag(self, override_skip_babp, score_only):             # <<<<<<<<<<<<<<
  *         bit_flag = 0
  *         if score_only:
@@ -6593,7 +6593,7 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_20StripedSmithWaterman_4_g
   __Pyx_RefNannySetupContext("_get_bit_flag", 0);
 
   /* "ssw_aligner/ssw_wrapper.pyx":650
- * 
+ *
  *     def _get_bit_flag(self, override_skip_babp, score_only):
  *         bit_flag = 0             # <<<<<<<<<<<<<<
  *         if score_only:
@@ -6734,7 +6734,7 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_20StripedSmithWaterman_4_g
  *         if bit_flag == 0 or bit_flag == 8:
  *             bit_flag = bit_flag | 0x1             # <<<<<<<<<<<<<<
  *         return bit_flag
- * 
+ *
  */
     __pyx_v_bit_flag = (__pyx_v_bit_flag | 0x1);
 
@@ -6753,7 +6753,7 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_20StripedSmithWaterman_4_g
  *         if bit_flag == 0 or bit_flag == 8:
  *             bit_flag = bit_flag | 0x1
  *         return bit_flag             # <<<<<<<<<<<<<<
- * 
+ *
  *     cdef cnp.ndarray[cnp.int8_t, ndim = 1, mode = "c"] _seq_converter(
  */
   __Pyx_XDECREF(__pyx_r);
@@ -6765,7 +6765,7 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_20StripedSmithWaterman_4_g
 
   /* "ssw_aligner/ssw_wrapper.pyx":649
  *         return alignment
- * 
+ *
  *     def _get_bit_flag(self, override_skip_babp, score_only):             # <<<<<<<<<<<<<<
  *         bit_flag = 0
  *         if score_only:
@@ -6784,7 +6784,7 @@ static PyObject *__pyx_pf_11ssw_aligner_11ssw_wrapper_20StripedSmithWaterman_4_g
 
 /* "ssw_aligner/ssw_wrapper.pyx":663
  *         return bit_flag
- * 
+ *
  *     cdef cnp.ndarray[cnp.int8_t, ndim = 1, mode = "c"] _seq_converter(             # <<<<<<<<<<<<<<
  *             self,
  *             sequence):
@@ -7044,7 +7044,7 @@ static PyArrayObject *__pyx_f_11ssw_aligner_11ssw_wrapper_20StripedSmithWaterman
  *             for i, char in enumerate(sequence):
  *                 seq[i] = np_nt_table[ord(char)]             # <<<<<<<<<<<<<<
  *         return seq
- * 
+ *
  */
       __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_np_nt_table); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 673, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
@@ -7072,7 +7072,7 @@ static PyArrayObject *__pyx_f_11ssw_aligner_11ssw_wrapper_20StripedSmithWaterman
  *             for i, char in enumerate(sequence):
  *                 seq[i] = np_nt_table[ord(char)]
  *         return seq             # <<<<<<<<<<<<<<
- * 
+ *
  *     cdef cnp.ndarray[cnp.int8_t, ndim = 1, mode = "c"] \
  */
   __Pyx_XDECREF(((PyObject *)__pyx_r));
@@ -7082,7 +7082,7 @@ static PyArrayObject *__pyx_f_11ssw_aligner_11ssw_wrapper_20StripedSmithWaterman
 
   /* "ssw_aligner/ssw_wrapper.pyx":663
  *         return bit_flag
- * 
+ *
  *     cdef cnp.ndarray[cnp.int8_t, ndim = 1, mode = "c"] _seq_converter(             # <<<<<<<<<<<<<<
  *             self,
  *             sequence):
@@ -7117,7 +7117,7 @@ static PyArrayObject *__pyx_f_11ssw_aligner_11ssw_wrapper_20StripedSmithWaterman
 
 /* "ssw_aligner/ssw_wrapper.pyx":676
  *         return seq
- * 
+ *
  *     cdef cnp.ndarray[cnp.int8_t, ndim = 1, mode = "c"] \             # <<<<<<<<<<<<<<
  *             _build_match_matrix(self, match_score, mismatch_score):
  *         sequence_order = "ACGTN"
@@ -7335,7 +7335,7 @@ static PyArrayObject *__pyx_f_11ssw_aligner_11ssw_wrapper_20StripedSmithWaterman
  *                     dict2d[row][column] = match_score if row == column \
  *                         else mismatch_score             # <<<<<<<<<<<<<<
  *         return self._convert_dict2d_to_matrix(dict2d)
- * 
+ *
  */
           __Pyx_INCREF(__pyx_v_mismatch_score);
           __pyx_t_7 = __pyx_v_mismatch_score;
@@ -7380,7 +7380,7 @@ static PyArrayObject *__pyx_f_11ssw_aligner_11ssw_wrapper_20StripedSmithWaterman
  *                     dict2d[row][column] = match_score if row == column \
  *                         else mismatch_score
  *         return self._convert_dict2d_to_matrix(dict2d)             # <<<<<<<<<<<<<<
- * 
+ *
  *     cdef cnp.ndarray[cnp.int8_t, ndim = 1, mode = "c"] \
  */
   __Pyx_XDECREF(((PyObject *)__pyx_r));
@@ -7392,7 +7392,7 @@ static PyArrayObject *__pyx_f_11ssw_aligner_11ssw_wrapper_20StripedSmithWaterman
 
   /* "ssw_aligner/ssw_wrapper.pyx":676
  *         return seq
- * 
+ *
  *     cdef cnp.ndarray[cnp.int8_t, ndim = 1, mode = "c"] \             # <<<<<<<<<<<<<<
  *             _build_match_matrix(self, match_score, mismatch_score):
  *         sequence_order = "ACGTN"
@@ -7418,7 +7418,7 @@ static PyArrayObject *__pyx_f_11ssw_aligner_11ssw_wrapper_20StripedSmithWaterman
 
 /* "ssw_aligner/ssw_wrapper.pyx":690
  *         return self._convert_dict2d_to_matrix(dict2d)
- * 
+ *
  *     cdef cnp.ndarray[cnp.int8_t, ndim = 1, mode = "c"] \             # <<<<<<<<<<<<<<
  *             _convert_dict2d_to_matrix(self, dict2d):
  *         if self.is_protein:
@@ -7731,7 +7731,7 @@ static PyArrayObject *__pyx_f_11ssw_aligner_11ssw_wrapper_20StripedSmithWaterman
 
   /* "ssw_aligner/ssw_wrapper.pyx":690
  *         return self._convert_dict2d_to_matrix(dict2d)
- * 
+ *
  *     cdef cnp.ndarray[cnp.int8_t, ndim = 1, mode = "c"] \             # <<<<<<<<<<<<<<
  *             _convert_dict2d_to_matrix(self, dict2d):
  *         if self.is_protein:
@@ -7922,11 +7922,11 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __Pyx_GIVEREF(__pyx_v_info->obj);
 
   /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":222
- * 
+ *
  *             cdef int i, ndim
  *             cdef int endian_detector = 1             # <<<<<<<<<<<<<<
  *             cdef bint little_endian = ((<char*>&endian_detector)[0] != 0)
- * 
+ *
  */
   __pyx_v_endian_detector = 1;
 
@@ -7934,23 +7934,23 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  *             cdef int i, ndim
  *             cdef int endian_detector = 1
  *             cdef bint little_endian = ((<char*>&endian_detector)[0] != 0)             # <<<<<<<<<<<<<<
- * 
+ *
  *             ndim = PyArray_NDIM(self)
  */
   __pyx_v_little_endian = ((((char *)(&__pyx_v_endian_detector))[0]) != 0);
 
   /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":225
  *             cdef bint little_endian = ((<char*>&endian_detector)[0] != 0)
- * 
+ *
  *             ndim = PyArray_NDIM(self)             # <<<<<<<<<<<<<<
- * 
+ *
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)
  */
   __pyx_v_ndim = PyArray_NDIM(__pyx_v_self);
 
   /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":227
  *             ndim = PyArray_NDIM(self)
- * 
+ *
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)             # <<<<<<<<<<<<<<
  *                 and not PyArray_CHKFLAGS(self, NPY_C_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not C contiguous")
@@ -7963,11 +7963,11 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   }
 
   /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":228
- * 
+ *
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_C_CONTIGUOUS)):             # <<<<<<<<<<<<<<
  *                 raise ValueError(u"ndarray is not C contiguous")
- * 
+ *
  */
   __pyx_t_2 = ((!(PyArray_CHKFLAGS(__pyx_v_self, NPY_C_CONTIGUOUS) != 0)) != 0);
   __pyx_t_1 = __pyx_t_2;
@@ -7975,7 +7975,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
 
   /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":227
  *             ndim = PyArray_NDIM(self)
- * 
+ *
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)             # <<<<<<<<<<<<<<
  *                 and not PyArray_CHKFLAGS(self, NPY_C_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not C contiguous")
@@ -7986,7 +7986,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_C_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not C contiguous")             # <<<<<<<<<<<<<<
- * 
+ *
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
  */
     __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__16, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 229, __pyx_L1_error)
@@ -7997,7 +7997,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
 
     /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":227
  *             ndim = PyArray_NDIM(self)
- * 
+ *
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)             # <<<<<<<<<<<<<<
  *                 and not PyArray_CHKFLAGS(self, NPY_C_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not C contiguous")
@@ -8006,7 +8006,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
 
   /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":231
  *                 raise ValueError(u"ndarray is not C contiguous")
- * 
+ *
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)             # <<<<<<<<<<<<<<
  *                 and not PyArray_CHKFLAGS(self, NPY_F_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not Fortran contiguous")
@@ -8019,11 +8019,11 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   }
 
   /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":232
- * 
+ *
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_F_CONTIGUOUS)):             # <<<<<<<<<<<<<<
  *                 raise ValueError(u"ndarray is not Fortran contiguous")
- * 
+ *
  */
   __pyx_t_2 = ((!(PyArray_CHKFLAGS(__pyx_v_self, NPY_F_CONTIGUOUS) != 0)) != 0);
   __pyx_t_1 = __pyx_t_2;
@@ -8031,7 +8031,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
 
   /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":231
  *                 raise ValueError(u"ndarray is not C contiguous")
- * 
+ *
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)             # <<<<<<<<<<<<<<
  *                 and not PyArray_CHKFLAGS(self, NPY_F_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not Fortran contiguous")
@@ -8042,7 +8042,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_F_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not Fortran contiguous")             # <<<<<<<<<<<<<<
- * 
+ *
  *             info.buf = PyArray_DATA(self)
  */
     __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__17, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 233, __pyx_L1_error)
@@ -8053,7 +8053,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
 
     /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":231
  *                 raise ValueError(u"ndarray is not C contiguous")
- * 
+ *
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)             # <<<<<<<<<<<<<<
  *                 and not PyArray_CHKFLAGS(self, NPY_F_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not Fortran contiguous")
@@ -8062,7 +8062,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
 
   /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":235
  *                 raise ValueError(u"ndarray is not Fortran contiguous")
- * 
+ *
  *             info.buf = PyArray_DATA(self)             # <<<<<<<<<<<<<<
  *             info.ndim = ndim
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):
@@ -8070,7 +8070,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_v_info->buf = PyArray_DATA(__pyx_v_self);
 
   /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":236
- * 
+ *
  *             info.buf = PyArray_DATA(self)
  *             info.ndim = ndim             # <<<<<<<<<<<<<<
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):
@@ -8182,7 +8182,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  *             info.suboffsets = NULL
  *             info.itemsize = PyArray_ITEMSIZE(self)             # <<<<<<<<<<<<<<
  *             info.readonly = not PyArray_ISWRITEABLE(self)
- * 
+ *
  */
   __pyx_v_info->itemsize = PyArray_ITEMSIZE(__pyx_v_self);
 
@@ -8190,13 +8190,13 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  *             info.suboffsets = NULL
  *             info.itemsize = PyArray_ITEMSIZE(self)
  *             info.readonly = not PyArray_ISWRITEABLE(self)             # <<<<<<<<<<<<<<
- * 
+ *
  *             cdef int t
  */
   __pyx_v_info->readonly = (!(PyArray_ISWRITEABLE(__pyx_v_self) != 0));
 
   /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":253
- * 
+ *
  *             cdef int t
  *             cdef char* f = NULL             # <<<<<<<<<<<<<<
  *             cdef dtype descr = self.descr
@@ -8209,7 +8209,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  *             cdef char* f = NULL
  *             cdef dtype descr = self.descr             # <<<<<<<<<<<<<<
  *             cdef int offset
- * 
+ *
  */
   __pyx_t_3 = ((PyObject *)__pyx_v_self->descr);
   __Pyx_INCREF(__pyx_t_3);
@@ -8218,9 +8218,9 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
 
   /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":257
  *             cdef int offset
- * 
+ *
  *             info.obj = self             # <<<<<<<<<<<<<<
- * 
+ *
  *             if not PyDataType_HASFIELDS(descr):
  */
   __Pyx_INCREF(((PyObject *)__pyx_v_self));
@@ -8231,7 +8231,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
 
   /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":259
  *             info.obj = self
- * 
+ *
  *             if not PyDataType_HASFIELDS(descr):             # <<<<<<<<<<<<<<
  *                 t = descr.type_num
  *                 if ((descr.byteorder == c'>' and little_endian) or
@@ -8240,7 +8240,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   if (__pyx_t_1) {
 
     /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":260
- * 
+ *
  *             if not PyDataType_HASFIELDS(descr):
  *                 t = descr.type_num             # <<<<<<<<<<<<<<
  *                 if ((descr.byteorder == c'>' and little_endian) or
@@ -8548,7 +8548,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
 
     /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":259
  *             info.obj = self
- * 
+ *
  *             if not PyDataType_HASFIELDS(descr):             # <<<<<<<<<<<<<<
  *                 t = descr.type_num
  *                 if ((descr.byteorder == c'>' and little_endian) or
@@ -8597,7 +8597,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  *                                       info.format + _buffer_format_string_len,
  *                                       &offset)
  *                 f[0] = c'\0' # Terminate format string             # <<<<<<<<<<<<<<
- * 
+ *
  *         def __releasebuffer__(ndarray self, Py_buffer* info):
  */
     (__pyx_v_f[0]) = '\x00';
@@ -8637,7 +8637,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
 
 /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":294
  *                 f[0] = c'\0' # Terminate format string
- * 
+ *
  *         def __releasebuffer__(ndarray self, Py_buffer* info):             # <<<<<<<<<<<<<<
  *             if PyArray_HASFIELDS(self):
  *                 PyObject_Free(info.format)
@@ -8660,7 +8660,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   __Pyx_RefNannySetupContext("__releasebuffer__", 0);
 
   /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":295
- * 
+ *
  *         def __releasebuffer__(ndarray self, Py_buffer* info):
  *             if PyArray_HASFIELDS(self):             # <<<<<<<<<<<<<<
  *                 PyObject_Free(info.format)
@@ -8679,7 +8679,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
     PyObject_Free(__pyx_v_info->format);
 
     /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":295
- * 
+ *
  *         def __releasebuffer__(ndarray self, Py_buffer* info):
  *             if PyArray_HASFIELDS(self):             # <<<<<<<<<<<<<<
  *                 PyObject_Free(info.format)
@@ -8702,7 +8702,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):
  *                 PyObject_Free(info.strides)             # <<<<<<<<<<<<<<
  *                 # info.shape was stored after info.strides in the same block
- * 
+ *
  */
     PyObject_Free(__pyx_v_info->strides);
 
@@ -8717,7 +8717,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
 
   /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":294
  *                 f[0] = c'\0' # Terminate format string
- * 
+ *
  *         def __releasebuffer__(ndarray self, Py_buffer* info):             # <<<<<<<<<<<<<<
  *             if PyArray_HASFIELDS(self):
  *                 PyObject_Free(info.format)
@@ -8729,10 +8729,10 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
 
 /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":775
  * ctypedef npy_cdouble     complex_t
- * 
+ *
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
  *     return PyArray_MultiIterNew(1, <void*>a)
- * 
+ *
  */
 
 static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__pyx_v_a) {
@@ -8742,10 +8742,10 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew1", 0);
 
   /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":776
- * 
+ *
  * cdef inline object PyArray_MultiIterNew1(a):
  *     return PyArray_MultiIterNew(1, <void*>a)             # <<<<<<<<<<<<<<
- * 
+ *
  * cdef inline object PyArray_MultiIterNew2(a, b):
  */
   __Pyx_XDECREF(__pyx_r);
@@ -8757,10 +8757,10 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
 
   /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":775
  * ctypedef npy_cdouble     complex_t
- * 
+ *
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
  *     return PyArray_MultiIterNew(1, <void*>a)
- * 
+ *
  */
 
   /* function exit code */
@@ -8776,10 +8776,10 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
 
 /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":778
  *     return PyArray_MultiIterNew(1, <void*>a)
- * 
+ *
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
- * 
+ *
  */
 
 static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__pyx_v_a, PyObject *__pyx_v_b) {
@@ -8789,10 +8789,10 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew2", 0);
 
   /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":779
- * 
+ *
  * cdef inline object PyArray_MultiIterNew2(a, b):
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)             # <<<<<<<<<<<<<<
- * 
+ *
  * cdef inline object PyArray_MultiIterNew3(a, b, c):
  */
   __Pyx_XDECREF(__pyx_r);
@@ -8804,10 +8804,10 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
 
   /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":778
  *     return PyArray_MultiIterNew(1, <void*>a)
- * 
+ *
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
- * 
+ *
  */
 
   /* function exit code */
@@ -8823,10 +8823,10 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
 
 /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":781
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
- * 
+ *
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
- * 
+ *
  */
 
 static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__pyx_v_a, PyObject *__pyx_v_b, PyObject *__pyx_v_c) {
@@ -8836,10 +8836,10 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew3", 0);
 
   /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":782
- * 
+ *
  * cdef inline object PyArray_MultiIterNew3(a, b, c):
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)             # <<<<<<<<<<<<<<
- * 
+ *
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):
  */
   __Pyx_XDECREF(__pyx_r);
@@ -8851,10 +8851,10 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
 
   /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":781
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
- * 
+ *
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
- * 
+ *
  */
 
   /* function exit code */
@@ -8870,10 +8870,10 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
 
 /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":784
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
- * 
+ *
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
- * 
+ *
  */
 
 static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__pyx_v_a, PyObject *__pyx_v_b, PyObject *__pyx_v_c, PyObject *__pyx_v_d) {
@@ -8883,10 +8883,10 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew4", 0);
 
   /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":785
- * 
+ *
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)             # <<<<<<<<<<<<<<
- * 
+ *
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):
  */
   __Pyx_XDECREF(__pyx_r);
@@ -8898,10 +8898,10 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
 
   /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":784
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
- * 
+ *
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
- * 
+ *
  */
 
   /* function exit code */
@@ -8917,10 +8917,10 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
 
 /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":787
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
- * 
+ *
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
- * 
+ *
  */
 
 static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__pyx_v_a, PyObject *__pyx_v_b, PyObject *__pyx_v_c, PyObject *__pyx_v_d, PyObject *__pyx_v_e) {
@@ -8930,10 +8930,10 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew5", 0);
 
   /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":788
- * 
+ *
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)             # <<<<<<<<<<<<<<
- * 
+ *
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  */
   __Pyx_XDECREF(__pyx_r);
@@ -8945,10 +8945,10 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
 
   /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":787
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
- * 
+ *
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
- * 
+ *
  */
 
   /* function exit code */
@@ -8964,7 +8964,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
 
 /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":790
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
- * 
+ *
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
  *     if PyDataType_HASSUBARRAY(d):
  *         return <tuple>d.subarray.shape
@@ -8977,7 +8977,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   __Pyx_RefNannySetupContext("PyDataType_SHAPE", 0);
 
   /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":791
- * 
+ *
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
  *         return <tuple>d.subarray.shape
@@ -8999,7 +8999,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     goto __pyx_L0;
 
     /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":791
- * 
+ *
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
  *         return <tuple>d.subarray.shape
@@ -9011,7 +9011,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
  *         return <tuple>d.subarray.shape
  *     else:
  *         return ()             # <<<<<<<<<<<<<<
- * 
+ *
  * cdef inline char* _util_dtypestring(dtype descr, char* f, char* end, int* offset) except NULL:
  */
   /*else*/ {
@@ -9023,7 +9023,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
 
   /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":790
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
- * 
+ *
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
  *     if PyDataType_HASSUBARRAY(d):
  *         return <tuple>d.subarray.shape
@@ -9038,7 +9038,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
 
 /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":796
  *         return ()
- * 
+ *
  * cdef inline char* _util_dtypestring(dtype descr, char* f, char* end, int* offset) except NULL:             # <<<<<<<<<<<<<<
  *     # Recursive utility function used in __getbuffer__ to get format
  *     # string. The new location in the format string is returned.
@@ -9066,7 +9066,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
   __Pyx_RefNannySetupContext("_util_dtypestring", 0);
 
   /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":801
- * 
+ *
  *     cdef dtype child
  *     cdef int endian_detector = 1             # <<<<<<<<<<<<<<
  *     cdef bint little_endian = ((<char*>&endian_detector)[0] != 0)
@@ -9079,13 +9079,13 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  *     cdef int endian_detector = 1
  *     cdef bint little_endian = ((<char*>&endian_detector)[0] != 0)             # <<<<<<<<<<<<<<
  *     cdef tuple fields
- * 
+ *
  */
   __pyx_v_little_endian = ((((char *)(&__pyx_v_endian_detector))[0]) != 0);
 
   /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":805
  *     cdef tuple fields
- * 
+ *
  *     for childname in descr.names:             # <<<<<<<<<<<<<<
  *         fields = descr.fields[childname]
  *         child, new_offset = fields
@@ -9107,11 +9107,11 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __pyx_t_3 = 0;
 
     /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":806
- * 
+ *
  *     for childname in descr.names:
  *         fields = descr.fields[childname]             # <<<<<<<<<<<<<<
  *         child, new_offset = fields
- * 
+ *
  */
     if (unlikely(__pyx_v_descr->fields == Py_None)) {
       PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
@@ -9127,7 +9127,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  *     for childname in descr.names:
  *         fields = descr.fields[childname]
  *         child, new_offset = fields             # <<<<<<<<<<<<<<
- * 
+ *
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:
  */
     if (likely(__pyx_v_fields != Py_None)) {
@@ -9139,8 +9139,8 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         __PYX_ERR(2, 807, __pyx_L1_error)
       }
       #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-      __pyx_t_3 = PyTuple_GET_ITEM(sequence, 0); 
-      __pyx_t_4 = PyTuple_GET_ITEM(sequence, 1); 
+      __pyx_t_3 = PyTuple_GET_ITEM(sequence, 0);
+      __pyx_t_4 = PyTuple_GET_ITEM(sequence, 1);
       __Pyx_INCREF(__pyx_t_3);
       __Pyx_INCREF(__pyx_t_4);
       #else
@@ -9160,10 +9160,10 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
 
     /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":809
  *         child, new_offset = fields
- * 
+ *
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:             # <<<<<<<<<<<<<<
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")
- * 
+ *
  */
     __pyx_t_4 = __Pyx_PyInt_From_int((__pyx_v_offset[0])); if (unlikely(!__pyx_t_4)) __PYX_ERR(2, 809, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
@@ -9176,10 +9176,10 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     if (unlikely(__pyx_t_6)) {
 
       /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":810
- * 
+ *
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")             # <<<<<<<<<<<<<<
- * 
+ *
  *         if ((child.byteorder == c'>' and little_endian) or
  */
       __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__19, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 810, __pyx_L1_error)
@@ -9190,16 +9190,16 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
 
       /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":809
  *         child, new_offset = fields
- * 
+ *
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:             # <<<<<<<<<<<<<<
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")
- * 
+ *
  */
     }
 
     /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":812
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")
- * 
+ *
  *         if ((child.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
  *             (child.byteorder == c'<' and not little_endian)):
  *             raise ValueError(u"Non-native byte order not supported")
@@ -9218,7 +9218,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __pyx_L8_next_or:;
 
     /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":813
- * 
+ *
  *         if ((child.byteorder == c'>' and little_endian) or
  *             (child.byteorder == c'<' and not little_endian)):             # <<<<<<<<<<<<<<
  *             raise ValueError(u"Non-native byte order not supported")
@@ -9236,7 +9236,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
 
     /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":812
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")
- * 
+ *
  *         if ((child.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
  *             (child.byteorder == c'<' and not little_endian)):
  *             raise ValueError(u"Non-native byte order not supported")
@@ -9258,7 +9258,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
 
       /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":812
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")
- * 
+ *
  *         if ((child.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
  *             (child.byteorder == c'<' and not little_endian)):
  *             raise ValueError(u"Non-native byte order not supported")
@@ -9266,7 +9266,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     }
 
     /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":824
- * 
+ *
  *         # Output padding bytes
  *         while offset[0] < new_offset:             # <<<<<<<<<<<<<<
  *             f[0] = 120 # "x"; pad byte
@@ -9295,7 +9295,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  *             f[0] = 120 # "x"; pad byte
  *             f += 1             # <<<<<<<<<<<<<<
  *             offset[0] += 1
- * 
+ *
  */
       __pyx_v_f = (__pyx_v_f + 1);
 
@@ -9303,7 +9303,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  *             f[0] = 120 # "x"; pad byte
  *             f += 1
  *             offset[0] += 1             # <<<<<<<<<<<<<<
- * 
+ *
  *         offset[0] += child.itemsize
  */
       __pyx_t_8 = 0;
@@ -9312,9 +9312,9 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
 
     /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":829
  *             offset[0] += 1
- * 
+ *
  *         offset[0] += child.itemsize             # <<<<<<<<<<<<<<
- * 
+ *
  *         if not PyDataType_HASFIELDS(child):
  */
     __pyx_t_8 = 0;
@@ -9322,7 +9322,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
 
     /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":831
  *         offset[0] += child.itemsize
- * 
+ *
  *         if not PyDataType_HASFIELDS(child):             # <<<<<<<<<<<<<<
  *             t = child.type_num
  *             if end - f < 5:
@@ -9331,7 +9331,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     if (__pyx_t_6) {
 
       /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":832
- * 
+ *
  *         if not PyDataType_HASFIELDS(child):
  *             t = child.type_num             # <<<<<<<<<<<<<<
  *             if end - f < 5:
@@ -9347,7 +9347,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  *             t = child.type_num
  *             if end - f < 5:             # <<<<<<<<<<<<<<
  *                 raise RuntimeError(u"Format string allocated too short.")
- * 
+ *
  */
       __pyx_t_6 = (((__pyx_v_end - __pyx_v_f) < 5) != 0);
       if (unlikely(__pyx_t_6)) {
@@ -9356,7 +9356,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  *             t = child.type_num
  *             if end - f < 5:
  *                 raise RuntimeError(u"Format string allocated too short.")             # <<<<<<<<<<<<<<
- * 
+ *
  *             # Until ticket #99 is fixed, use integers to avoid warnings
  */
         __pyx_t_4 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__21, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(2, 834, __pyx_L1_error)
@@ -9370,12 +9370,12 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  *             t = child.type_num
  *             if end - f < 5:             # <<<<<<<<<<<<<<
  *                 raise RuntimeError(u"Format string allocated too short.")
- * 
+ *
  */
       }
 
       /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":837
- * 
+ *
  *             # Until ticket #99 is fixed, use integers to avoid warnings
  *             if   t == NPY_BYTE:        f[0] =  98 #"b"             # <<<<<<<<<<<<<<
  *             elif t == NPY_UBYTE:       f[0] =  66 #"B"
@@ -9716,7 +9716,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
 
       /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":831
  *         offset[0] += child.itemsize
- * 
+ *
  *         if not PyDataType_HASFIELDS(child):             # <<<<<<<<<<<<<<
  *             t = child.type_num
  *             if end - f < 5:
@@ -9729,7 +9729,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  *             # so don't output it
  *             f = _util_dtypestring(child, f, end, offset)             # <<<<<<<<<<<<<<
  *     return f
- * 
+ *
  */
     /*else*/ {
       __pyx_t_9 = __pyx_f_5numpy__util_dtypestring(__pyx_v_child, __pyx_v_f, __pyx_v_end, __pyx_v_offset); if (unlikely(__pyx_t_9 == ((char *)NULL))) __PYX_ERR(2, 860, __pyx_L1_error)
@@ -9739,7 +9739,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
 
     /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":805
  *     cdef tuple fields
- * 
+ *
  *     for childname in descr.names:             # <<<<<<<<<<<<<<
  *         fields = descr.fields[childname]
  *         child, new_offset = fields
@@ -9751,15 +9751,15 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  *             # so don't output it
  *             f = _util_dtypestring(child, f, end, offset)
  *     return f             # <<<<<<<<<<<<<<
- * 
- * 
+ *
+ *
  */
   __pyx_r = __pyx_v_f;
   goto __pyx_L0;
 
   /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":796
  *         return ()
- * 
+ *
  * cdef inline char* _util_dtypestring(dtype descr, char* f, char* end, int* offset) except NULL:             # <<<<<<<<<<<<<<
  *     # Recursive utility function used in __getbuffer__ to get format
  *     # string. The new location in the format string is returned.
@@ -9783,8 +9783,8 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
 }
 
 /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":977
- * 
- * 
+ *
+ *
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
  *      cdef PyObject* baseptr
  *      if base is None:
@@ -9853,7 +9853,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  *          baseptr = <PyObject*>base
  *      Py_XDECREF(arr.base)             # <<<<<<<<<<<<<<
  *      arr.base = baseptr
- * 
+ *
  */
   Py_XDECREF(__pyx_v_arr->base);
 
@@ -9861,14 +9861,14 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  *          baseptr = <PyObject*>base
  *      Py_XDECREF(arr.base)
  *      arr.base = baseptr             # <<<<<<<<<<<<<<
- * 
+ *
  * cdef inline object get_array_base(ndarray arr):
  */
   __pyx_v_arr->base = __pyx_v_baseptr;
 
   /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":977
- * 
- * 
+ *
+ *
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
  *      cdef PyObject* baseptr
  *      if base is None:
@@ -9880,7 +9880,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
 
 /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":987
  *      arr.base = baseptr
- * 
+ *
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
  *     if arr.base is NULL:
  *         return None
@@ -9893,7 +9893,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __Pyx_RefNannySetupContext("get_array_base", 0);
 
   /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":988
- * 
+ *
  * cdef inline object get_array_base(ndarray arr):
  *     if arr.base is NULL:             # <<<<<<<<<<<<<<
  *         return None
@@ -9914,7 +9914,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
     goto __pyx_L0;
 
     /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":988
- * 
+ *
  * cdef inline object get_array_base(ndarray arr):
  *     if arr.base is NULL:             # <<<<<<<<<<<<<<
  *         return None
@@ -9926,8 +9926,8 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
  *         return None
  *     else:
  *         return <object>arr.base             # <<<<<<<<<<<<<<
- * 
- * 
+ *
+ *
  */
   /*else*/ {
     __Pyx_XDECREF(__pyx_r);
@@ -9938,7 +9938,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
 
   /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":987
  *      arr.base = baseptr
- * 
+ *
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
  *     if arr.base is NULL:
  *         return None
@@ -10016,7 +10016,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
  *         _import_array()
  *     except Exception:             # <<<<<<<<<<<<<<
  *         raise ImportError("numpy.core.multiarray failed to import")
- * 
+ *
  */
     __pyx_t_4 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_4) {
@@ -10030,7 +10030,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
  *         _import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
- * 
+ *
  * cdef inline int import_umath() except -1:
  */
       __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__22, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 1000, __pyx_L5_except_error)
@@ -10082,7 +10082,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
 
 /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1002
  *         raise ImportError("numpy.core.multiarray failed to import")
- * 
+ *
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
  *     try:
  *         _import_umath()
@@ -10102,7 +10102,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   __Pyx_RefNannySetupContext("import_umath", 0);
 
   /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1003
- * 
+ *
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
  *         _import_umath()
@@ -10127,7 +10127,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
       __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 1004, __pyx_L3_error)
 
       /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1003
- * 
+ *
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
  *         _import_umath()
@@ -10145,7 +10145,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
  *         raise ImportError("numpy.core.umath failed to import")
- * 
+ *
  */
     __pyx_t_4 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_4) {
@@ -10159,7 +10159,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
- * 
+ *
  * cdef inline int import_ufunc() except -1:
  */
       __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__23, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 1006, __pyx_L5_except_error)
@@ -10172,7 +10172,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __pyx_L5_except_error:;
 
     /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1003
- * 
+ *
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
  *         _import_umath()
@@ -10188,7 +10188,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
 
   /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1002
  *         raise ImportError("numpy.core.multiarray failed to import")
- * 
+ *
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
  *     try:
  *         _import_umath()
@@ -10211,7 +10211,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
 
 /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1008
  *         raise ImportError("numpy.core.umath failed to import")
- * 
+ *
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
  *     try:
  *         _import_umath()
@@ -10231,7 +10231,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   __Pyx_RefNannySetupContext("import_ufunc", 0);
 
   /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1009
- * 
+ *
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
  *         _import_umath()
@@ -10256,7 +10256,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
       __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 1010, __pyx_L3_error)
 
       /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1009
- * 
+ *
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
  *         _import_umath()
@@ -10298,7 +10298,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __pyx_L5_except_error:;
 
     /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1009
- * 
+ *
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
  *         _import_umath()
@@ -10314,7 +10314,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
 
   /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1008
  *         raise ImportError("numpy.core.umath failed to import")
- * 
+ *
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
  *     try:
  *         _import_umath()
@@ -10826,7 +10826,7 @@ static int __Pyx_InitCachedConstants(void) {
  *             if align_len > 13:
  *                 target = target[:10] + "..."             # <<<<<<<<<<<<<<
  *                 query = query[:10] + "..."
- * 
+ *
  */
   __pyx_slice__2 = PySlice_New(Py_None, __pyx_int_10, Py_None); if (unlikely(!__pyx_slice__2)) __PYX_ERR(0, 120, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_slice__2);
@@ -10836,7 +10836,7 @@ static int __Pyx_InitCachedConstants(void) {
  *             if align_len > 13:
  *                 target = target[:10] + "..."
  *                 query = query[:10] + "..."             # <<<<<<<<<<<<<<
- * 
+ *
  *             length = "Length: %d" % align_len
  */
   __pyx_slice__4 = PySlice_New(Py_None, __pyx_int_10, Py_None); if (unlikely(!__pyx_slice__4)) __PYX_ERR(0, 121, __pyx_L1_error)
@@ -10929,7 +10929,7 @@ static int __Pyx_InitCachedConstants(void) {
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_C_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not C contiguous")             # <<<<<<<<<<<<<<
- * 
+ *
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
  */
   __pyx_tuple__16 = PyTuple_Pack(1, __pyx_kp_u_ndarray_is_not_C_contiguous); if (unlikely(!__pyx_tuple__16)) __PYX_ERR(2, 229, __pyx_L1_error)
@@ -10940,7 +10940,7 @@ static int __Pyx_InitCachedConstants(void) {
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_F_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not Fortran contiguous")             # <<<<<<<<<<<<<<
- * 
+ *
  *             info.buf = PyArray_DATA(self)
  */
   __pyx_tuple__17 = PyTuple_Pack(1, __pyx_kp_u_ndarray_is_not_Fortran_contiguou); if (unlikely(!__pyx_tuple__17)) __PYX_ERR(2, 233, __pyx_L1_error)
@@ -10959,10 +10959,10 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__18);
 
   /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":810
- * 
+ *
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")             # <<<<<<<<<<<<<<
- * 
+ *
  *         if ((child.byteorder == c'>' and little_endian) or
  */
   __pyx_tuple__19 = PyTuple_Pack(1, __pyx_kp_u_Format_string_allocated_too_shor); if (unlikely(!__pyx_tuple__19)) __PYX_ERR(2, 810, __pyx_L1_error)
@@ -10984,7 +10984,7 @@ static int __Pyx_InitCachedConstants(void) {
  *             t = child.type_num
  *             if end - f < 5:
  *                 raise RuntimeError(u"Format string allocated too short.")             # <<<<<<<<<<<<<<
- * 
+ *
  *             # Until ticket #99 is fixed, use integers to avoid warnings
  */
   __pyx_tuple__21 = PyTuple_Pack(1, __pyx_kp_u_Format_string_allocated_too_shor_2); if (unlikely(!__pyx_tuple__21)) __PYX_ERR(2, 834, __pyx_L1_error)
@@ -10995,7 +10995,7 @@ static int __Pyx_InitCachedConstants(void) {
  *         _import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
- * 
+ *
  * cdef inline int import_umath() except -1:
  */
   __pyx_tuple__22 = PyTuple_Pack(1, __pyx_kp_s_numpy_core_multiarray_failed_to); if (unlikely(!__pyx_tuple__22)) __PYX_ERR(2, 1000, __pyx_L1_error)
@@ -11006,7 +11006,7 @@ static int __Pyx_InitCachedConstants(void) {
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
- * 
+ *
  * cdef inline int import_ufunc() except -1:
  */
   __pyx_tuple__23 = PyTuple_Pack(1, __pyx_kp_s_numpy_core_umath_failed_to_impor); if (unlikely(!__pyx_tuple__23)) __PYX_ERR(2, 1006, __pyx_L1_error)
@@ -11142,7 +11142,7 @@ static int __Pyx_modinit_type_import_code(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_modinit_type_import_code", 0);
   /*--- Type import code ---*/
-  __pyx_ptype_7cpython_4type_type = __Pyx_ImportType(__Pyx_BUILTIN_MODULE_NAME, "type", 
+  __pyx_ptype_7cpython_4type_type = __Pyx_ImportType(__Pyx_BUILTIN_MODULE_NAME, "type",
   #if defined(PYPY_VERSION_NUM) && PYPY_VERSION_NUM < 0x050B0000
   sizeof(PyTypeObject),
   #else
@@ -11355,11 +11355,11 @@ if (!__Pyx_RefNanny) {
   #endif
 
   /* "ssw_aligner/ssw_wrapper.pyx":10
- * 
+ *
  * from cpython cimport bool
  * import numpy as np             # <<<<<<<<<<<<<<
  * cimport numpy as cnp
- * 
+ *
  */
   __pyx_t_1 = __Pyx_Import(__pyx_n_s_numpy, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 10, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
@@ -11368,7 +11368,7 @@ if (!__Pyx_RefNanny) {
 
   /* "ssw_aligner/ssw_wrapper.pyx":50
  *     cdef void align_destroy(s_align* a)
- * 
+ *
  * np_aa_table = np.array([             # <<<<<<<<<<<<<<
  *     23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23,
  *     23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23,
@@ -11773,7 +11773,7 @@ if (!__Pyx_RefNanny) {
 
   /* "ssw_aligner/ssw_wrapper.pyx":60
  *     14,  5,  1, 15, 16, 23, 19, 17, 22, 18, 21, 23, 23, 23, 23, 23])
- * 
+ *
  * np_nt_table = np.array([             # <<<<<<<<<<<<<<
  *     4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,
  *     4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,
@@ -12178,10 +12178,10 @@ if (!__Pyx_RefNanny) {
 
   /* "ssw_aligner/ssw_wrapper.pyx":70
  *     4,  4,  4,  4,  3,  0,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4])
- * 
+ *
  * mid_table = np.array(['M', 'I', 'D'])             # <<<<<<<<<<<<<<
- * 
- * 
+ *
+ *
  */
   __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 70, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
@@ -12218,7 +12218,7 @@ if (!__Pyx_RefNanny) {
 
   /* "../../miniconda3/envs/regenet/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1008
  *         raise ImportError("numpy.core.umath failed to import")
- * 
+ *
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
  *     try:
  *         _import_umath()
@@ -13047,8 +13047,8 @@ static PyObject* __Pyx_PyInt_AddObjC(PyObject *op1, PyObject *op2, CYTHON_UNUSED
                 llx = lla + llb;
             return PyLong_FromLongLong(llx);
 #endif
-        
-        
+
+
     }
     #endif
     if (PyFloat_CheckExact(op1)) {

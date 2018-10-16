@@ -15,7 +15,6 @@ extensions = cythonize([
 ])
 
 
-print np.get_include()
 setup(name='ssw_aligner',
       version='0.0.3',
       license='MIT',
