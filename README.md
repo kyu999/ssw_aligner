@@ -12,6 +12,7 @@ pip install ssw_aligner
 ### Quick Start
 ```
 from ssw_aligner import local_pairwise_align_ssw
+
 query_seq = 'TTTTTAAAAA'
 target_seq = 'GGGGTTTT'
 alignment = local_pairwise_align_ssw(query_seq,
