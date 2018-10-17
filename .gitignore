@@ -1,1 +1,4 @@
 *.so
+build
+dist
+*.egg-info
