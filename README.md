@@ -1,5 +1,7 @@
 # SSW Aligner
 
+Python implementation of [Striped Smith-Waterman Algorithm](https://academic.oup.com/bioinformatics/article/23/2/156/205631)
+
 ### Dependencies
 - [Numpy==1.12.0](http://www.numpy.org/)
 - [Cython==0.28.3](https://cython.org/)
@@ -21,6 +23,31 @@ alignment = local_pairwise_align_ssw(query_seq,
                                      gap_extend_penalty=1,
                                      match_score=2,
                                      mismatch_score=-3)
+
+# get score
+alignment.optimal_alignment_score
+
+# get query start, end
+alignment.query_begin
+alignment.query_end
+
+# get target start, end
+alignment.target_begin
+alignment.target_end_optimal
+
+# get aligned sequence
+alignment.aligned_query_sequence
+alignment.aligned_target_sequence
+
+# get cigar infomation
+alignment.cigar
+
+# check whether the index starts from 0 or not
+alignment.is_zero_based()
+
+# make the index start from n(0 or 1)
+alignment.set_zero_based(0) # start from 0
+alignment.set_zero_based(1) # start from 1
 ```
-### Reference
-- [scikit-bio](https://github.com/biocore/scikit-bio)
+
+※This repository uses a part of codes fetched from [scikit-bio](https://github.com/biocore/scikit-bio)
