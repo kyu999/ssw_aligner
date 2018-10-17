@@ -3,8 +3,8 @@
 Python implementation of [Striped Smith-Waterman Algorithm](https://academic.oup.com/bioinformatics/article/23/2/156/205631)
 
 ### Dependencies
-- [Numpy==1.12.0](http://www.numpy.org/)
-- [Cython==0.28.3](https://cython.org/)
+- [numpy>=1.12.0](http://www.numpy.org/)
+- [Cython>=0.28.3](https://cython.org/)
 
 ### Installation
 ```
