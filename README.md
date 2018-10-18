@@ -2,7 +2,7 @@
 
 Python implementation of [Striped Smith-Waterman Algorithm](https://academic.oup.com/bioinformatics/article/23/2/156/205631)
 
-# Comparison as of 2018/10/18
+# Comparison with other Smith-Waterman Implementation in Python as of 2018/10/18
 || ssw_aligner | [swalign]() | [scikit-bio](https://github.com/biocore/scikit-bio) |
 |:---:|:---:|:---:|:---:|
 | Python2 | ○ | ○ | ✗ |
