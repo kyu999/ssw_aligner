@@ -7,7 +7,7 @@ Python implementation of [Striped Smith-Waterman Algorithm](https://academic.oup
 |:---:|:---:|:---:|:---:|
 | Python2 | ○ | ○ | ✗ |
 | Python3 | ○ | ○ | ○ |
-| benchmark | 1.049 seconds | over 30 minutes | 1.567 seconds |
+| benchmark | 1.049 seconds | 2326.898 seconds | 1.567 seconds |
 | zipped package size | 108 KB | 9 KB | 8.6 MB |
 | Installable to Google Dataflow | ○ | ○ | ✗ |
 
