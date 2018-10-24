@@ -16,9 +16,10 @@ extensions = cythonize([
 
 
 setup(name='ssw_aligner',
-      version='0.0.5',
+      version='0.0.6',
       license='MIT',
       description='Python implementation of Striped Smith-Waterman Algorithm',
+      long_description='Python implementation of Striped Smith-Waterman Algorithm(one of the local alignment algorithms). Please visit the github page for more details.',
       author="kyu999",
       author_email="kyukokkyou999@gmail.com",
       maintainer="kyu999",
