@@ -13,17 +13,13 @@ Python implementation of [Striped Smith-Waterman Algorithm](https://academic.oup
 | Installable to Google Dataflow | ○ | ○ | ✗ |
 
 ### Dependencies
-- [numpy>=1.12.0](http://www.numpy.org/)
-- [Cython>=0.28.3](https://cython.org/)
+- [numpy==1.12.0](http://www.numpy.org/)
+- [Cython==0.28.3](https://cython.org/)
 
 ### Installation
 ```
-# if you do not have numpy
 pip install numpy==1.12.0
-
-# if you do not have Cython
 pip install Cython==0.28.3
-
 pip install ssw_aligner
 ```
 
