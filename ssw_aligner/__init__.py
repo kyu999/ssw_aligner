@@ -1,4 +1,4 @@
-from ssw_wrapper import StripedSmithWaterman
+from ssw_aligner.ssw_wrapper import StripedSmithWaterman
 
 
 def local_pairwise_align_ssw(query_sequence,

@@ -27,5 +27,12 @@ setup(name='ssw_aligner',
       url='https://github.com/kyu999/ssw_aligner',
       packages=find_packages(),
       ext_modules=extensions,
+      classifiers=[
+        'Programming Language :: Python :: 2',
+        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.7',
+        'License :: OSI Approved :: MIT License',
+      ],
       include_dirs=[np.get_include()]
 )
