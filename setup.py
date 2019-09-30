@@ -16,7 +16,7 @@ extensions = cythonize([
 
 
 setup(name='ssw_aligner',
-      version='0.0.7',
+      version='0.0.8',
       license='MIT',
       description='Python implementation of Striped Smith-Waterman Algorithm',
       long_description='Python implementation of Striped Smith-Waterman Algorithm(one of the local alignment algorithms). Please visit the github page for more details.',
@@ -27,12 +27,5 @@ setup(name='ssw_aligner',
       url='https://github.com/kyu999/ssw_aligner',
       packages=find_packages(),
       ext_modules=extensions,
-      classifiers=[
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.7',
-        'License :: OSI Approved :: MIT License',
-      ],
       include_dirs=[np.get_include()]
 )
